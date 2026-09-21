@@ -289,20 +289,27 @@ export default function HomePage({ onNavigate }) {
               <p>FSSAI, IEC, MSME, DPIIT and the registrations your sector requires.</p>
               <span className="more">Get licensed &rarr;</span>
             </a>
-            <div className="card" style={{ background: 'var(--ink)', borderColor: 'var(--ink)' }}>
-              <div className="no" style={{ color: 'var(--gold-lt)' }}>
+            <div
+              className="card card-dark-cta"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('contact');
+              }}
+            >
+              <div className="no">
                 Not sure?
               </div>
-              <h3 style={{ color: '#fff' }}>Start with a conversation</h3>
-              <p style={{ color: '#B9AD8C' }}>
+              <h3>Start with a conversation</h3>
+              <p>
                 Tell us the problem. We will tell you what solves it, or if you do not need us for it.
               </p>
               <a
                 href="#"
-                className="btn btn-w"
-                style={{ marginTop: '15px', padding: '11px 20px', fontSize: '14px' }}
+                className="btn btn-p"
+                style={{ marginTop: '15px', padding: '11px 20px', fontSize: '14px', alignSelf: 'flex-start' }}
                 onClick={(e) => {
                   e.preventDefault();
+                  e.stopPropagation();
                   onNavigate('contact');
                 }}
               >

@@ -12,10 +12,69 @@ import DigitalMarketingPage from './pages/DigitalMarketingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
+export const ROUTES = {
+  home: '/',
+  funding: '/funding',
+  registration: '/registration',
+  trademark: '/trademark',
+  insurance: '/insurance',
+  itsoftware: '/itsoftware',
+  marketing: '/marketing',
+  about: '/about',
+  contact: '/contact'
+};
+
+const PATH_TO_PAGE = {
+  '/': 'home',
+  '/home': 'home',
+  '/funding': 'funding',
+  '/registration': 'registration',
+  '/trademark': 'trademark',
+  '/insurance': 'insurance',
+  '/itsoftware': 'itsoftware',
+  '/it-software': 'itsoftware',
+  '/marketing': 'marketing',
+  '/digital-marketing': 'marketing',
+  '/about': 'about',
+  '/about-us': 'about',
+  '/contact': 'contact',
+  '/contact-us': 'contact'
+};
+
+function getPageFromLocation() {
+  const path = (window.location.pathname || '/').toLowerCase().replace(/\/$/, '') || '/';
+  if (PATH_TO_PAGE[path]) {
+    return PATH_TO_PAGE[path];
+  }
+  // Check hash fallback (e.g. #funding or #/funding)
+  const hash = (window.location.hash || '').replace(/^#\/?/, '').toLowerCase();
+  if (hash && PATH_TO_PAGE['/' + hash]) {
+    return PATH_TO_PAGE['/' + hash];
+  }
+  return 'home';
+}
+
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState(getPageFromLocation);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPage(getPageFromLocation());
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    window.addEventListener('hashchange', handlePopState);
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('hashchange', handlePopState);
+    };
+  }, []);
 
   const handleNavigate = (pageId) => {
+    const newPath = ROUTES[pageId] || '/';
+    if (window.location.pathname !== newPath) {
+      window.history.pushState({ page: pageId }, '', newPath);
+    }
     setCurrentPage(pageId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };

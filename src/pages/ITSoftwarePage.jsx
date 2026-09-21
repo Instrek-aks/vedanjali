@@ -253,7 +253,7 @@ export default function ITSoftwarePage({ onNavigate }) {
             Custom ERP dashboard, built around one client&rsquo;s actual operations workflow
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '26px', marginTop: '48px' }}>
+          <div className="grid g2" style={{ marginTop: '40px' }}>
             <div className="browser">
               <div className="bar">
                 <span className="dot"></span>
@@ -337,56 +337,56 @@ export default function ITSoftwarePage({ onNavigate }) {
           <div className="show-grid">
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">order.bombaychowpati.in</span></div>
-                <img src="/page_09_image_01.png" alt="Restaurant Online Ordering system" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">admin.bombaychowpati.in</span></div>
+                <img src="/page_09_image_02.png" alt="Restaurant & POS Admin Dashboard" loading="lazy" />
               </div>
-              <div className="name">Restaurant Online Ordering</div>
-              <div className="cat">Direct QR &amp; web ordering system</div>
+              <div className="name">Restaurant &amp; POS Admin</div>
+              <div className="cat">Live orders, billing, tables &amp; inventory</div>
             </div>
 
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">orders.laundry.overview</span></div>
-                <img src="/page_06_image_01.png" alt="Order Distribution and analytics display" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">admin.laundry.systems</span></div>
+                <img src="/page_06_image_02.png" alt="Laundry Operations Admin Dashboard" loading="lazy" />
               </div>
-              <div className="name">Order Analytics &amp; KDS</div>
-              <div className="cat">Real-time processing &amp; station status</div>
+              <div className="name">Laundry Operations Admin</div>
+              <div className="cat">Order intake, tag printing &amp; route delivery</div>
             </div>
 
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">store.zackvelle.com</span></div>
-                <img src="/page_10_image_01.png" alt="Luxury Fashion storefront" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">admin.zackvelle.com</span></div>
+                <img src="/page_10_image_02.png" alt="Zackvelle Fashion Store Admin" loading="lazy" />
               </div>
-              <div className="name">Luxury Fashion E-Commerce</div>
-              <div className="cat">High-conversion storefront &amp; checkout</div>
+              <div className="name">Fashion &amp; Apparel E-Commerce Admin</div>
+              <div className="cat">Catalog management, order dispatch &amp; analytics</div>
             </div>
 
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">bakery.catalog.store</span></div>
-                <img src="/page_07_image_01.png" alt="Gourmet bakery e-commerce" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">admin.bakery.store</span></div>
+                <img src="/page_07_image_02.png" alt="Bakery Management Admin Dashboard" loading="lazy" />
               </div>
-              <div className="name">Food &amp; Bakery Storefront</div>
-              <div className="cat">Catalog, online delivery &amp; custom orders</div>
+              <div className="name">Bakery &amp; Confectionery Admin</div>
+              <div className="cat">Custom order tracking, production &amp; stock control</div>
             </div>
 
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">ehr.physioguru.health</span></div>
-                <img src="/page_13_image_01.png" alt="Clinic EHR and appointment system" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">doctor.physioguru.health</span></div>
+                <img src="/page_13_image_02.png" alt="Doctor & Clinic Management Admin" loading="lazy" />
               </div>
-              <div className="name">Care Clinic EHR &amp; Appointments</div>
-              <div className="cat">Patient records, Rx &amp; tele-consulting</div>
+              <div className="name">Doctor &amp; Clinic Management Admin</div>
+              <div className="cat">Patient EHR, prescriptions &amp; consultation queue</div>
             </div>
 
             <div className="show-item">
               <div className="browser">
-                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">portal.elitegym.fit</span></div>
-                <img src="/page_12_image_01.png" alt="Gym and fitness centre management OS" loading="lazy" />
+                <div className="bar"><span className="dot"></span><span className="dot"></span><span className="dot"></span><span className="url">admin.elitegym.fit</span></div>
+                <img src="/page_12_image_02.png" alt="Gym & Fitness Centre Admin OS" loading="lazy" />
               </div>
-              <div className="name">Gym &amp; Fitness Center OS</div>
-              <div className="cat">Biometric access, member subs &amp; trainers</div>
+              <div className="name">Gym &amp; Fitness Centre Admin OS</div>
+              <div className="cat">Membership plans, attendance &amp; trainer payouts</div>
             </div>
           </div>
         </div>

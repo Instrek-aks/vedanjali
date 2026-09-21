@@ -1,7 +1,7 @@
 // Image assets and clean public URLs for Vedanjali Consultant
 
-export const LOGO_LIGHT = '/images/logo-light.svg';
-export const LOGO_DARK = '/images/logo-dark.svg';
+export const LOGO_LIGHT = '/logo.png';
+export const LOGO_DARK = '/logo.png';
 
 export const MOCKUP_ERP_DASHBOARD = '/erp.png';
 export const MOCKUP_APP_GROCERY = '/gros.png';
