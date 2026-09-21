@@ -1,0 +1,3530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vedanjali Consultant | Business Funding, Company Registration, Trademark & IT Solutions</title>
+    <meta name="description"
+        content="Vedanjali Consultant helps Indian businesses get business loans, MSME and startup funding, company registration, GST, Udyam, trademark and patent registration, plus websites, ERP, CRM and digital marketing.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --gold: #A87820;
+            --gold-lt: #C99632;
+            --gold-mid: #B88526;
+            --gold-pale: #E6B860;
+            --cream: #FAF6EE;
+            --wash: #F3ECE0;
+            --ink: #14110B;
+            --body: #2B251A;
+            --muted: #6B5F4D;
+            --line: #E2D7C3;
+            --hair: #EDE4D4;
+            --mqfade: #FAF6EE;
+            --grad: linear-gradient(135deg, #B88526 0%, #8C6218 100%);
+            --grad-h: linear-gradient(135deg, #C99632 0%, #9C6E1C 100%);
+            --shadow: 0 10px 30px rgba(20, 17, 11, .06);
+            --shadow-lg: 0 20px 50px rgba(20, 17, 11, .11);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+            background: #fff;
+            color: var(--body);
+            line-height: 1.6;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Sora', system-ui, -apple-system, sans-serif;
+            color: var(--ink);
+            font-weight: 700;
+            line-height: 1.25;
+            letter-spacing: -.02em
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .wrap {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 0 24px
+        }
+
+        /* ---------- HEADER & NAV ---------- */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, .94);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 0 24px
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+
+        .brand img {
+            display: block;
+            height: 38px;
+            width: auto
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 28px
+        }
+
+        .menu a {
+            font-size: 14.5px;
+            font-weight: 600;
+            color: var(--muted);
+            transition: .2s;
+            cursor: pointer
+        }
+
+        .menu a:hover,
+        .menu a.on {
+            color: var(--gold)
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 13px 26px;
+            font-size: 14.5px;
+            font-weight: 700;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: .2s;
+            border: none;
+            font-family: 'Manrope', system-ui, sans-serif
+        }
+
+        .btn-p {
+            background: var(--grad);
+            color: #fff;
+            box-shadow: 0 8px 22px rgba(168, 120, 32, .28)
+        }
+
+        .btn-p:hover {
+            background: var(--grad-h);
+            transform: translateY(-1px)
+        }
+
+        .btn-o {
+            background: transparent;
+            color: var(--ink);
+            border: 1.5px solid var(--line)
+        }
+
+        .btn-o:hover {
+            border-color: var(--gold);
+            color: var(--gold)
+        }
+
+        .btn-w {
+            background: #fff;
+            color: var(--ink);
+            box-shadow: var(--shadow)
+        }
+
+        .btn-w:hover {
+            background: var(--cream);
+            color: var(--gold)
+        }
+
+        .burger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px
+        }
+
+        .burger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--ink);
+            margin: 5px 0;
+            transition: .3s
+        }
+
+        /* ---------- HERO ---------- */
+        .hero {
+            background: radial-gradient(circle at 80% 20%, #F5ECDD 0%, #FAF6EE 55%, #fff 100%);
+            padding: 76px 0 84px;
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr .85fr;
+            gap: 60px;
+            align-items: center
+        }
+
+        .kick {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .15em;
+            text-transform: uppercase;
+            color: var(--gold);
+            background: var(--wash);
+            border: 1px solid var(--line);
+            padding: 5px 13px;
+            border-radius: 2px;
+            margin-bottom: 18px
+        }
+
+        .kick.plain {
+            background: transparent;
+            border: none;
+            padding: 0;
+            color: var(--gold-lt)
+        }
+
+        .hero h1 {
+            font-size: clamp(34px, 4.4vw, 50px);
+            line-height: 1.15;
+            margin-bottom: 22px
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: var(--gold)
+        }
+
+        p.lead {
+            font-size: 18px;
+            color: var(--muted);
+            line-height: 1.7;
+            margin-bottom: 34px
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-bottom: 44px
+        }
+
+        .trust {
+            display: flex;
+            gap: 36px;
+            padding-top: 28px;
+            border-top: 1px solid var(--line)
+        }
+
+        .trust strong {
+            display: block;
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 24px;
+            color: var(--ink)
+        }
+
+        .trust span {
+            font-size: 12.5px;
+            color: var(--muted)
+        }
+
+        /* hero right card */
+        .hcard {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 4px;
+            padding: 34px 30px;
+            box-shadow: var(--shadow-lg)
+        }
+
+        .hcard h3 {
+            font-size: 20px;
+            margin-bottom: 6px
+        }
+
+        .hcard .sub {
+            font-size: 13.5px;
+            color: var(--muted);
+            margin-bottom: 22px
+        }
+
+        .hcard ul {
+            list-style: none
+        }
+
+        .hcard li {
+            padding: 11px 0;
+            border-bottom: 1px solid var(--hair);
+            font-size: 14.5px
+        }
+
+        .hcard li a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: .2s
+        }
+
+        .hcard li a:hover {
+            color: var(--gold);
+            transform: translateX(3px)
+        }
+
+        .hcard li b {
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 13px
+        }
+
+        /* ---------- SECTION HEADINGS ---------- */
+        .sec {
+            padding: 88px 0
+        }
+
+        .sec.tint {
+            background: var(--cream);
+            border-top: 1px solid var(--hair);
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .sec-h {
+            margin-bottom: 52px;
+            max-width: 680px
+        }
+
+        .sec-h.mid {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .sec-h h2 {
+            font-size: clamp(27px, 3.8vw, 40px);
+            margin-bottom: 14px
+        }
+
+        .sec-h p {
+            font-size: 17px;
+            color: var(--muted);
+            line-height: 1.65
+        }
+
+        /* ---------- GRIDS ---------- */
+        .grid {
+            display: grid;
+            gap: 22px
+        }
+
+        .g4 {
+            grid-template-columns: repeat(4, 1fr)
+        }
+
+        .g3 {
+            grid-template-columns: repeat(3, 1fr)
+        }
+
+        .g2 {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 36px
+        }
+
+        /* service cards */
+        .card {
+            background: #fff;
+            border: 1px solid var(--line);
+            padding: 30px 24px;
+            border-radius: 3px;
+            transition: .25s;
+            position: relative;
+            display: flex;
+            flex-direction: column
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            border-color: var(--gold-pale);
+            box-shadow: var(--shadow)
+        }
+
+        .card .no {
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--gold);
+            letter-spacing: .1em;
+            margin-bottom: 16px
+        }
+
+        .card h3 {
+            font-size: 18.5px;
+            margin-bottom: 11px;
+            line-height: 1.3
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--muted);
+            line-height: 1.62;
+            margin-bottom: 20px;
+            flex: 1
+        }
+
+        .card .more {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--gold);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: auto
+        }
+
+        /* ---------- INNER PAGE HERO ---------- */
+        .phero {
+            background: radial-gradient(circle at 85% 15%, #F5ECDD 0%, #FAF6EE 60%, #fff 100%);
+            padding: 68px 0 72px;
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .phero .crumb {
+            font-size: 13px;
+            color: var(--muted);
+            margin-bottom: 14px
+        }
+
+        .phero .crumb a {
+            color: var(--gold);
+            font-weight: 600
+        }
+
+        .phero h1 {
+            font-size: clamp(30px, 4vw, 44px);
+            margin-bottom: 18px;
+            max-width: 820px
+        }
+
+        .phero p {
+            font-size: 17.5px;
+            color: var(--muted);
+            max-width: 720px;
+            line-height: 1.68
+        }
+
+        .phero .btns {
+            display: flex;
+            gap: 14px;
+            margin-top: 28px;
+            flex-wrap: wrap
+        }
+
+        /* ---------- SERVICE DETAIL LAYOUT ---------- */
+        .svc {
+            margin-bottom: 64px
+        }
+
+        .svc:last-child {
+            margin-bottom: 0
+        }
+
+        .svc-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 48px;
+            align-items: start
+        }
+
+        .svc-l h3 {
+            font-size: 24px;
+            margin-bottom: 13px
+        }
+
+        .svc-l p {
+            font-size: 15.5px;
+            color: var(--muted);
+            line-height: 1.68
+        }
+
+        .sub-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px
+        }
+
+        .sub-box {
+            background: var(--cream);
+            border: 1px solid var(--hair);
+            border-top: 2px solid var(--gold-mid);
+            padding: 23px 21px;
+            border-radius: 2px
+        }
+
+        .sub-box h4 {
+            font-size: 16px;
+            margin-bottom: 11px
+        }
+
+        .sub-box ul {
+            list-style: none
+        }
+
+        .sub-box li {
+            font-size: 14px;
+            padding: 5px 0 5px 17px;
+            position: relative
+        }
+
+        .sub-box li:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 13px;
+            width: 5px;
+            height: 5px;
+            background: var(--gold-lt);
+            transform: rotate(45deg)
+        }
+
+        .pill-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            margin-top: 20px
+        }
+
+        .pill {
+            border: 1px solid var(--line);
+            background: var(--cream);
+            padding: 8px 15px;
+            border-radius: 2px;
+            font-size: 13.5px;
+            font-weight: 500
+        }
+
+        /* ---------- DEVICE MOCKUPS ---------- */
+        .laptop {
+            max-width: 820px;
+            margin: 0 auto
+        }
+
+        .laptop .lid {
+            background: #14110B;
+            padding: 13px 13px 0;
+            border-radius: 14px 14px 0 0;
+            box-shadow: var(--shadow-lg)
+        }
+
+        .laptop .lid img {
+            border-radius: 3px;
+            width: 100%;
+            background: #fff;
+            display: block
+        }
+
+        .laptop .base {
+            height: 15px;
+            background: linear-gradient(180deg, #2A241A, #14110B);
+            border-radius: 0 0 8px 8px;
+            position: relative
+        }
+
+        .laptop .base:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 4px;
+            width: 66px;
+            height: 5px;
+            background: #4A4030;
+            border-radius: 3px
+        }
+
+        .laptop .stand {
+            height: 9px;
+            width: 116%;
+            margin-left: -8%;
+            background: linear-gradient(180deg, #1B170F, #0B0906);
+            border-radius: 0 0 14px 14px;
+            box-shadow: 0 16px 30px rgba(0, 0, 0, .18)
+        }
+
+        .browser {
+            border: 1px solid var(--line);
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            background: #fff
+        }
+
+        .browser .bar {
+            background: #F4EFE3;
+            padding: 9px 13px;
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .browser .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #D9CDB4
+        }
+
+        .browser .url {
+            flex: 1;
+            background: #fff;
+            border: 1px solid var(--hair);
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 10.5px;
+            color: var(--muted);
+            margin-left: 8px;
+            font-family: 'Manrope', system-ui, sans-serif
+        }
+
+        .browser img {
+            width: 100%;
+            display: block
+        }
+
+        .phone {
+            width: 225px;
+            flex: none;
+            border: 9px solid #14110B;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            background: #14110B
+        }
+
+        .phone:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 76px;
+            height: 17px;
+            background: #14110B;
+            border-radius: 0 0 11px 11px;
+            z-index: 3
+        }
+
+        .phone img {
+            width: 100%;
+            display: block
+        }
+
+        .phone-row {
+            display: flex;
+            gap: 26px;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: flex-start
+        }
+
+        .phone-row .phone:nth-child(even) {
+            margin-top: 34px
+        }
+
+        .devcap {
+            text-align: center;
+            font-size: 13px;
+            color: var(--muted);
+            margin-top: 16px
+        }
+
+        /* showcase grid of browser mockups */
+        .show-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 26px
+        }
+
+        .show-item .name {
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--ink);
+            margin-top: 14px
+        }
+
+        .show-item .cat {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-top: 4px
+        }
+
+        /* ---------- DARK BAND ---------- */
+        .dark {
+            background: var(--ink);
+            color: #EDE3C9;
+            padding: 88px 0
+        }
+
+        .dark h2 {
+            color: #fff;
+            font-size: clamp(26px, 3.7vw, 39px);
+            margin-bottom: 16px
+        }
+
+        .dark p.lead {
+            color: #C6BB9C;
+            font-size: 17px;
+            max-width: 720px;
+            line-height: 1.75
+        }
+
+        .dstat {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 48px
+        }
+
+        .dstat div {
+            border-top: 2px solid var(--gold-mid);
+            padding-top: 19px
+        }
+
+        .dstat strong {
+            display: block;
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 19px;
+            color: #fff;
+            margin-bottom: 7px
+        }
+
+        .dstat span {
+            font-size: 13.5px;
+            color: #B9AD8C;
+            line-height: 1.6;
+            display: block
+        }
+
+        /* ---------- STEPS ---------- */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px
+        }
+
+        .step {
+            border-top: 1px solid var(--line);
+            padding-top: 21px
+        }
+
+        .step .n {
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 33px;
+            font-weight: 700;
+            color: var(--gold-lt);
+            line-height: 1;
+            margin-bottom: 11px
+        }
+
+        .step h4 {
+            font-size: 17px;
+            margin-bottom: 7px
+        }
+
+        .step p {
+            font-size: 14px;
+            color: var(--muted);
+            line-height: 1.62
+        }
+
+        /* ---------- TABLE ---------- */
+        .tbl {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14.5px
+        }
+
+        .tbl th {
+            background: var(--ink);
+            color: #F0E4C4;
+            text-align: left;
+            padding: 14px 16px;
+            font-family: 'Manrope', system-ui, sans-serif;
+            font-size: 11.5px;
+            font-weight: 700;
+            letter-spacing: .13em;
+            text-transform: uppercase
+        }
+
+        .tbl td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--hair);
+            vertical-align: top
+        }
+
+        .tbl tr:nth-child(even) td {
+            background: var(--cream)
+        }
+
+        .tbl td:first-child {
+            font-weight: 600;
+            color: var(--ink)
+        }
+
+        .tbl-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--hair);
+            border-radius: 3px
+        }
+
+        /* ---------- FAQ ---------- */
+        .faq {
+            max-width: 880px
+        }
+
+        .faq details {
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .faq summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 20px 42px 20px 0;
+            position: relative;
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 19px;
+            font-weight: 600;
+            color: var(--ink);
+            line-height: 1.35
+        }
+
+        .faq summary::-webkit-details-marker {
+            display: none
+        }
+
+        .faq summary:after {
+            content: "+";
+            position: absolute;
+            right: 6px;
+            top: 17px;
+            font-size: 25px;
+            color: var(--gold);
+            font-family: 'Manrope', system-ui, sans-serif;
+            font-weight: 400;
+            transition: .25s
+        }
+
+        .faq details[open] summary:after {
+            transform: rotate(45deg)
+        }
+
+        .faq .ans {
+            padding: 0 42px 22px 0;
+            font-size: 15.5px;
+            color: var(--muted);
+            line-height: 1.72
+        }
+
+        /* ---------- CTA BAND ---------- */
+        .ctaband {
+            background: var(--grad);
+            padding: 74px 0;
+            text-align: center;
+            color: #fff
+        }
+
+        .ctaband h2 {
+            color: #fff;
+            font-size: clamp(25px, 3.6vw, 37px);
+            margin-bottom: 13px
+        }
+
+        .ctaband p {
+            font-size: 17px;
+            opacity: .95;
+            margin-bottom: 28px;
+            max-width: 620px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        /* ---------- CONTACT ---------- */
+        .cgrid {
+            display: grid;
+            grid-template-columns: 1fr 1.08fr;
+            gap: 54px;
+            align-items: start
+        }
+
+        .cinfo .row {
+            display: flex;
+            gap: 16px;
+            padding: 19px 0;
+            border-bottom: 1px solid var(--hair)
+        }
+
+        .cinfo .row:last-child {
+            border: none
+        }
+
+        .cinfo .ic {
+            width: 40px;
+            height: 40px;
+            flex: none;
+            background: var(--wash);
+            border: 1px solid var(--line);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-size: 17px;
+            border-radius: 2px
+        }
+
+        .cinfo .lbl {
+            font-size: 11.5px;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 3px
+        }
+
+        .cinfo .val {
+            font-size: 16px;
+            color: var(--ink);
+            font-weight: 500
+        }
+
+        form {
+            background: var(--cream);
+            border: 1px solid var(--hair);
+            padding: 32px 30px;
+            border-radius: 3px
+        }
+
+        form label {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 6px
+        }
+
+        form input,
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 12px 14px;
+            font-size: 14.5px;
+            font-family: inherit;
+            border: 1px solid var(--line);
+            background: #fff;
+            border-radius: 2px;
+            margin-bottom: 16px;
+            color: var(--ink);
+            outline: none;
+            transition: .2s
+        }
+
+        form input:focus,
+        form select:focus,
+        form textarea:focus {
+            border-color: var(--gold)
+        }
+
+        form textarea {
+            height: 100px;
+            resize: vertical
+        }
+
+        .f-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px
+        }
+
+        form .btn {
+            width: 100%;
+            padding: 14px
+        }
+
+        .fnote {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 10px
+        }
+
+        /* ---------- FOOTER ---------- */
+        footer {
+            background: #0D0A05;
+            color: #C8BEA7;
+            padding: 72px 0 34px
+        }
+
+        .fgrid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 54px
+        }
+
+        .fgrid .flogo {
+            height: 38px;
+            width: auto;
+            margin-bottom: 16px
+        }
+
+        .fgrid p {
+            font-size: 14px;
+            color: #9C917B;
+            line-height: 1.65;
+            max-width: 320px
+        }
+
+        footer h5 {
+            color: #fff;
+            font-size: 14px;
+            margin-bottom: 16px;
+            letter-spacing: .08em;
+            text-transform: uppercase
+        }
+
+        footer ul {
+            list-style: none
+        }
+
+        footer li {
+            margin-bottom: 9px
+        }
+
+        footer li a {
+            font-size: 14px;
+            transition: .2s
+        }
+
+        footer li a:hover {
+            color: var(--gold-lt)
+        }
+
+        .fbot {
+            border-top: 1px solid #241E12;
+            padding-top: 21px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 13px
+        }
+
+        /* ---------- WHATSAPP ---------- */
+        .wa {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 200;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #25D366;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px rgba(37, 211, 102, .42);
+            transition: .25s
+        }
+
+        .wa:hover {
+            transform: scale(1.07)
+        }
+
+        .wa svg {
+            width: 29px;
+            height: 29px;
+            fill: #fff
+        }
+
+        /* ---------- RESPONSIVE ---------- */
+        @media(max-width:1000px) {
+
+            .hero-grid,
+            .svc-grid,
+            .cgrid {
+                grid-template-columns: 1fr;
+                gap: 38px
+            }
+
+            .g4,
+            .show-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .dstat,
+            .steps {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .fgrid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px
+            }
+        }
+
+        @media(max-width:1120px) {
+            .burger {
+                display: block
+            }
+
+            .menu {
+                position: fixed;
+                inset: 62px 0 auto 0;
+                background: #fff;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                padding: 12px 24px 24px;
+                border-bottom: 1px solid var(--hair);
+                transform: translateY(-160%);
+                transition: .32s;
+                box-shadow: var(--shadow);
+                max-height: calc(100vh - 62px);
+                overflow-y: auto;
+                z-index: 99
+            }
+
+            .menu.open {
+                transform: translateY(0)
+            }
+
+            .menu a {
+                padding: 14px 0;
+                border-bottom: 1px solid var(--hair);
+                font-size: 16px
+            }
+
+            .menu .btn {
+                margin-top: 14px
+            }
+
+            [data-theme="dark"] .menu {
+                background: #0A0A0A
+            }
+        }
+
+        @media(max-width:760px) {
+            .sec {
+                padding: 60px 0
+            }
+
+            .menu {
+                position: fixed;
+                inset: 62px 0 auto 0;
+                background: #fff;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                padding: 12px 24px 24px;
+                border-bottom: 1px solid var(--hair);
+                transform: translateY(-160%);
+                transition: .32s;
+                box-shadow: var(--shadow);
+                max-height: calc(100vh - 62px);
+                overflow-y: auto
+            }
+
+            .menu.open {
+                transform: translateY(0)
+            }
+
+            .menu a {
+                padding: 14px 0;
+                border-bottom: 1px solid var(--hair);
+                font-size: 16px
+            }
+
+            .menu .btn {
+                margin-top: 14px
+            }
+
+            .g2,
+            .g3,
+            .g4,
+            .sub-grid,
+            .show-grid {
+                grid-template-columns: 1fr
+            }
+
+            .hero {
+                padding: 52px 0 56px
+            }
+
+            .phero {
+                padding: 52px 0 48px
+            }
+
+            .dstat,
+            .steps {
+                grid-template-columns: 1fr
+            }
+
+            .f-row {
+                grid-template-columns: 1fr
+            }
+
+            .fgrid {
+                grid-template-columns: 1fr
+            }
+
+            .phone {
+                width: 190px
+            }
+
+            .laptop .stand {
+                width: 104%;
+                margin-left: -2%
+            }
+
+            .phone-row .phone:nth-child(even) {
+                margin-top: 0
+            }
+        }
+
+        /* ============================================================
+           DARK MODE · activated by [data-theme="dark"] on <html>
+           ============================================================ */
+        [data-theme="dark"] {
+            --mqfade: #111010;
+            --cream: #111010;
+            --wash: #171513;
+            --ink: #FFFFFF;
+            --body: #D8D0C0;
+            --muted: #9E9482;
+            --line: #2A251E;
+            --hair: #1E1A14;
+        }
+
+        [data-theme="dark"] body {
+            background: #0A0A0A;
+            color: var(--body)
+        }
+
+        [data-theme="dark"] header {
+            background: rgba(10, 10, 10, .94);
+            border-bottom-color: var(--hair)
+        }
+
+        [data-theme="dark"] .brand {
+            color: #fff
+        }
+
+        [data-theme="dark"] .hero {
+            background: radial-gradient(circle at 80% 20%, #1F190D 0%, #120F08 55%, #0A0A0A 100%);
+            border-bottom-color: var(--hair)
+        }
+
+        [data-theme="dark"] .phero {
+            background: radial-gradient(circle at 85% 15%, #1F190D 0%, #120F08 60%, #0A0A0A 100%);
+            border-bottom-color: var(--hair)
+        }
+
+        [data-theme="dark"] .card {
+            background: #111010;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .card:hover {
+            border-color: var(--gold-pale);
+            background: #151412
+        }
+
+        [data-theme="dark"] .hcard {
+            background: #111010;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .sub-box {
+            background: #151413;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .pill {
+            background: #151413;
+            border-color: var(--line);
+            color: var(--body)
+        }
+
+        [data-theme="dark"] .laptop .lid {
+            background: #000;
+            outline: 1px solid var(--hair)
+        }
+
+        [data-theme="dark"] .laptop .lid img {
+            background: #000
+        }
+
+        [data-theme="dark"] .laptop .base {
+            background: linear-gradient(180deg, #1C1914, #0A0A0A)
+        }
+
+        [data-theme="dark"] .laptop .stand {
+            background: linear-gradient(180deg, #141210, #000)
+        }
+
+        [data-theme="dark"] .browser {
+            background: #000;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .browser .bar {
+            background: #131211;
+            border-bottom-color: var(--hair)
+        }
+
+        [data-theme="dark"] .browser .dot {
+            background: #3A342A
+        }
+
+        [data-theme="dark"] .browser .url {
+            background: #0A0A0A;
+            border-color: var(--hair)
+        }
+
+        [data-theme="dark"] .phone {
+            border-color: #000;
+            background: #000;
+            outline: 1px solid var(--hair)
+        }
+
+        [data-theme="dark"] .phone:before {
+            background: #000
+        }
+
+        [data-theme="dark"] .tbl th {
+            background: var(--grad);
+            color: #0A0A0A
+        }
+
+        [data-theme="dark"] .tbl td {
+            color: var(--body)
+        }
+
+        [data-theme="dark"] .tbl td:first-child {
+            color: #fff
+        }
+
+        [data-theme="dark"] .tbl tr:nth-child(even) td {
+            background: #151413
+        }
+
+        [data-theme="dark"] .ctaband {
+            color: #0A0A0A
+        }
+
+        [data-theme="dark"] .ctaband h2 {
+            color: #0A0A0A
+        }
+
+        [data-theme="dark"] .ctaband p {
+            color: #1A1508
+        }
+
+        [data-theme="dark"] .ctaband .btn-w {
+            background: #0A0A0A;
+            color: var(--gold);
+            border: none
+        }
+
+        [data-theme="dark"] .cinfo .ic {
+            background: #151413;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .cinfo .val {
+            color: #fff
+        }
+
+        [data-theme="dark"] input,
+        [data-theme="dark"] select,
+        [data-theme="dark"] textarea {
+            background: #0A0A0A;
+            color: #fff;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] input::placeholder,
+        [data-theme="dark"] textarea::placeholder {
+            color: #6A6252
+        }
+
+        [data-theme="dark"] footer {
+            background: #050505;
+            border-top: 1px solid var(--hair)
+        }
+
+        [data-theme="dark"] footer h5 {
+            color: var(--gold)
+        }
+
+        [data-theme="dark"] .fbot {
+            border-top-color: var(--hair)
+        }
+
+        [data-theme="dark"] .logo-light {
+            display: none
+        }
+
+        [data-theme="dark"] .logo-dark {
+            display: block
+        }
+
+        .logo-dark {
+            display: none
+        }
+
+        [data-theme="dark"] .partner {
+            background: #151413;
+            border-color: var(--hair)
+        }
+
+        [data-theme="dark"] .partner:hover {
+            border-color: var(--gold-pale)
+        }
+
+        /* ---------- THEME TOGGLE SWITCH ---------- */
+        .tgl {
+            position: relative;
+            width: 70px;
+            height: 34px;
+            flex: none;
+            padding: 0;
+            cursor: pointer;
+            border: 1px solid var(--line);
+            background: var(--cream);
+            border-radius: 999px;
+            transition: .25s
+        }
+
+        .tgl:hover {
+            border-color: var(--gold-mid)
+        }
+
+        .tgl .ic {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 15px;
+            height: 15px;
+            fill: var(--muted);
+            transition: opacity .25s;
+            pointer-events: none
+        }
+
+        .tgl .ic.sun {
+            left: 9px;
+            opacity: 0
+        }
+
+        .tgl .ic.moon {
+            right: 9px;
+            opacity: .55
+        }
+
+        .tgl .knob {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: var(--grad);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .28);
+            transition: transform .3s cubic-bezier(.4, 0, .2, 1)
+        }
+
+        [data-theme="dark"] .tgl {
+            background: #151413;
+            border-color: var(--line)
+        }
+
+        [data-theme="dark"] .tgl .knob {
+            transform: translateX(36px)
+        }
+
+        [data-theme="dark"] .tgl .ic.sun {
+            opacity: .6
+        }
+
+        [data-theme="dark"] .tgl .ic.moon {
+            opacity: 0
+        }
+
+        .tgl-wrap {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            flex: none
+        }
+
+        .tgl-lbl {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .13em;
+            text-transform: uppercase;
+            color: var(--muted);
+            white-space: nowrap
+        }
+
+        @media(max-width:1120px) {
+            .tgl-lbl {
+                display: none
+            }
+
+            .tgl-wrap {
+                margin-left: auto;
+                margin-right: 4px
+            }
+
+            .burger {
+                margin-left: 0
+            }
+        }
+
+        /* ---------- PARTNER LOGO MARQUEE ---------- */
+        .mq {
+            position: relative;
+            overflow: hidden;
+            padding: 6px 0
+        }
+
+        .mq:before,
+        .mq:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 120px;
+            z-index: 2;
+            pointer-events: none
+        }
+
+        .mq:before {
+            left: 0;
+            background: linear-gradient(90deg, var(--mqfade) 0%, rgba(255, 255, 255, 0) 100%)
+        }
+
+        .mq:after {
+            right: 0;
+            background: linear-gradient(270deg, var(--mqfade) 0%, rgba(255, 255, 255, 0) 100%)
+        }
+
+        .mq-track {
+            display: flex;
+            gap: 18px;
+            width: max-content;
+            animation: mqscroll 46s linear infinite
+        }
+
+        .mq-track.rev {
+            animation-direction: reverse;
+            animation-duration: 54s
+        }
+
+        .mq:hover .mq-track {
+            animation-play-state: paused
+        }
+
+        @keyframes mqscroll {
+            from {
+                transform: translateX(0)
+            }
+
+            to {
+                transform: translateX(-50%)
+            }
+        }
+
+        .plogo {
+            flex: none;
+            width: 186px;
+            height: 84px;
+            background: #fff;
+            border: 1px solid var(--hair);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 11px;
+            padding: 0 16px;
+            transition: .28s;
+            filter: grayscale(1);
+            opacity: .72
+        }
+
+        .plogo:hover {
+            filter: grayscale(0);
+            opacity: 1;
+            border-color: var(--gold-pale);
+            box-shadow: 0 10px 26px rgba(20, 14, 4, .10);
+            transform: translateY(-2px)
+        }
+
+        [data-theme="dark"] .plogo {
+            background: #151413;
+            border-color: var(--hair)
+        }
+
+        [data-theme="dark"] .plogo:hover {
+            border-color: var(--gold-pale);
+            box-shadow: 0 10px 26px rgba(0, 0, 0, .4)
+        }
+
+        .plogo .mono {
+            width: 36px;
+            height: 36px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: -.02em;
+            flex: none
+        }
+
+        .plogo .nm {
+            font-family: 'Sora', system-ui, sans-serif;
+            font-size: 13.5px;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.25
+        }
+
+        .plogo .nm small {
+            display: block;
+            font-family: 'Manrope', system-ui, sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-top: 2px
+        }
+
+        [data-theme="dark"] .plogo .nm small {
+            color: #8E8674
+        }
+
+        .mq-cta {
+            text-align: center;
+            margin-top: 32px
+        }
+
+        .mq-count {
+            display: inline-flex;
+            align-items: center;
+            gap: 13px;
+            background: var(--grad);
+            color: #fff;
+            padding: 13px 26px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: .01em;
+            box-shadow: 0 10px 26px rgba(140, 98, 24, .28)
+        }
+
+        .mq-count b {
+            font-size: 21px;
+            font-weight: 800;
+            line-height: 1
+        }
+
+        [data-theme="dark"] .mq-count {
+            color: #0A0A0A
+        }
+
+        @media(max-width:760px) {
+            .plogo {
+                width: 158px;
+                height: 74px;
+                gap: 9px;
+                padding: 0 12px
+            }
+
+            .plogo .mono {
+                width: 30px;
+                height: 30px;
+                font-size: 11.5px
+            }
+
+            .plogo .nm {
+                font-size: 12px
+            }
+
+            .mq:before,
+            .mq:after {
+                width: 56px
+            }
+        }
+
+        .pg {
+            display: none
+        }
+
+        .pg.show {
+            display: block;
+            animation: fade .35s ease
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: translateY(8px)
+            }
+
+            to {
+                opacity: 1;
+                transform: none
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+            <a class="brand" href="#" data-go="home"><img class="logo-light"
+                    src="/images/logo-light.svg" alt="Vedanjali Consultant" width="104"><img
+                    class="logo-dark"
+                    src="/images/logo-dark.svg" alt="Vedanjali Consultant" width="104"></a>
+            <nav class="menu" id="menu">
+                <a href="#" data-go="home" class="on">Home</a>
+                <a href="#" data-go="funding">Funding</a>
+                <a href="#" data-go="registration">Registration</a>
+                <a href="#" data-go="trademark">Trademark &amp; IP</a>
+                <a href="#" data-go="itsoftware">IT &amp; Software</a>
+                <a href="#" data-go="insurance">Insurance</a>
+                <a href="#" data-go="about">About</a>
+                <a href="#" data-go="contact" class="btn btn-p">Free Consultation</a>
+            </nav>
+            <div class="tgl-wrap"><span class="tgl-lbl" id="tglLbl">Light</span><button class="tgl" id="tgl"
+                    type="button" role="switch" aria-checked="false" aria-label="Toggle dark mode"><svg
+                        class="ic sun" viewBox="0 0 24 24">
+                        <path
+                            d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.5 4.9l1.4-1.4 2.1 2.1-1.4 1.4-2.1-2.1zm13.5 13.5l1.4-1.4 2.1 2.1-1.4 1.4-2.1-2.1zM1 11h3v2H1v-2zm19 0h3v2h-3v-2zM4.9 20.5l-1.4-1.4 2.1-2.1 1.4 1.4-2.1 2.1zM18.4 7l-1.4-1.4 2.1-2.1 1.4 1.4L18.4 7z" />
+                    </svg><svg class="ic moon" viewBox="0 0 24 24">
+                        <path
+                            d="M12.3 22a10 10 0 0 1-1.5-19.9c.6-.1 1 .6.7 1.1a7.5 7.5 0 0 0 9.6 10.4c.5-.2 1.1.2 1 .8A10 10 0 0 1 12.3 22z" />
+                    </svg><span class="knob"></span></button></div>
+            <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <div class="pg" id="pg-home" style="display:block">
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <span class="kick">Business Advisory &amp; Consulting</span>
+                    <h1>Funding, registration and the <em>systems</em> your business runs on.</h1>
+                    <p class="lead">From raising working capital to registering your company, protecting your brand and
+                        building
+                        the software behind it, Vedanjali Consultant handles the work that keeps a business moving. One
+                        team, one
+                        point of contact, start to finish.</p>
+                    <div class="hero-cta">
+                        <a href="#" data-go="contact" class="btn btn-p">Get a Free Consultation</a>
+                        <a href="#services" class="btn btn-o">Explore Services</a>
+                    </div>
+                    <div class="trust">
+                        <div><strong>7</strong><span>Service verticals</span></div>
+                        <div><strong>360&deg;</strong><span>Start to compliance</span></div>
+                        <div><strong>1</strong><span>Point of contact</span></div>
+                    </div>
+                </div>
+                <div class="hcard">
+                    <h3>What are you looking for?</h3>
+                    <div class="sub">Tell us the stage you are at, and we will point you to the right service.</div>
+                    <ul>
+                        <li><a href="#" data-go="funding"><b>01</b><span>I need funding for my business</span></a></li>
+                        <li><a href="#" data-go="registration"><b>02</b><span>I want to register a new
+                                    company</span></a></li>
+                        <li><a href="#" data-go="trademark"><b>03</b><span>I want to protect my brand name</span></a>
+                        </li>
+                        <li><a href="#" data-go="funding"><b>04</b><span>I need a project report or pitch
+                                    deck</span></a></li>
+                        <li><a href="#" data-go="itsoftware"><b>05</b><span>I need a website, app or software</span></a>
+                        </li>
+                        <li><a href="#" data-go="marketing"><b>06</b><span>I need more customers online</span></a></li>
+                    </ul>
+                    <a href="#" data-go="contact" class="btn btn-p" style="width:100%;margin-top:20px">Speak to an
+                        Advisor</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint" id="services">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">Our core services</span>
+                    <h2>Seven services. One team behind all of them.</h2>
+                    <p>Most businesses end up with a different consultant for every problem. We built Vedanjali so you
+                        do not
+                        have to explain your business more than once.</p>
+                </div>
+                <div class="grid g4">
+                    <a class="card" href="#" data-go="funding">
+                        <div class="no">01</div>
+                        <h3>Business Funding &amp; Finance</h3>
+                        <p>Unsecured loans, working capital, term loans, machinery finance and loan against property.
+                        </p>
+                        <span class="more">Explore funding &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="registration">
+                        <div class="no">02</div>
+                        <h3>Company Registration &amp; Compliance</h3>
+                        <p>Private limited, LLP, partnership, Section 8, GST, Udyam and ongoing compliance.</p>
+                        <span class="more">Explore registration &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="funding" data-anchor="startup">
+                        <div class="no">03</div>
+                        <h3>Startup &amp; Business Consultancy</h3>
+                        <p>Project reports, pitch decks, financial projections and Startup India advisory.</p>
+                        <span class="more">Explore consultancy &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="trademark">
+                        <div class="no">04</div>
+                        <h3>Trademark, Patent &amp; IP</h3>
+                        <p>Trademark registration and renewal, patents, copyright, design and IP consultancy.</p>
+                        <span class="more">Protect your brand &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="itsoftware">
+                        <div class="no">05</div>
+                        <h3>IT &amp; Software Solutions</h3>
+                        <p>Websites, mobile apps, custom ERP, intelligent CRM and ready-built industry systems.</p>
+                        <span class="more">See our work &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="marketing">
+                        <div class="no">06</div>
+                        <h3>Digital Marketing &amp; Branding</h3>
+                        <p>SEO, paid advertising, social media management, logo and brand identity.</p>
+                        <span class="more">Grow online &rarr;</span>
+                    </a>
+                    <a class="card" href="#" data-go="registration" data-anchor="licensing">
+                        <div class="no">07</div>
+                        <h3>Certification &amp; Licensing</h3>
+                        <p>FSSAI, IEC, MSME, DPIIT and the registrations your sector requires.</p>
+                        <span class="more">Get licensed &rarr;</span>
+                    </a>
+                    <div class="card" style="background:var(--ink);border-color:var(--ink)">
+                        <div class="no" style="color:var(--gold-lt)">Not sure?</div>
+                        <h3 style="color:#fff">Start with a conversation</h3>
+                        <p style="color:#B9AD8C">Tell us the problem. We will tell you what solves it, or if you do not
+                            need us for it.</p>
+                        <a href="#" data-go="contact" class="btn btn-w"
+                            style="margin-top:15px;padding:11px 20px;font-size:14px">Talk to us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint" id="partners">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Our lending network</span>
+                    <h2>Channel partners with 70+ banks and NBFCs.</h2>
+                    <p>One application, assessed against the criteria of the institutions most likely to approve it.
+                        That is the
+                        difference between applying and applying well.</p>
+                </div>
+            </div>
+
+            <div class="mq">
+                <div class="mq-track">
+                    <div class="plogo"><span class="mono" style="background:#0A3A6B">HB</span><span class="nm">HDFC
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#A8362C">IB</span><span class="nm">ICICI
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8B1D3F">AB</span><span class="nm">Axis
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4F9C">SB</span><span class="nm">State
+                            Bank of India<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B4272C">KM</span><span class="nm">Kotak
+                            Mahindra<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#D06A1E">BO</span><span class="nm">Bank of
+                            Baroda<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#12326B">YB</span><span class="nm">Yes
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8C1F2F">IF</span><span class="nm">IDFC
+                            FIRST<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#7A2431">IB</span><span class="nm">IndusInd
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A4B12">PN</span><span class="nm">Punjab
+                            National Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123F7A">UB</span><span class="nm">Union
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E4C8A">CB</span><span class="nm">Canara
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0A3A6B">HB</span><span class="nm">HDFC
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#A8362C">IB</span><span class="nm">ICICI
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8B1D3F">AB</span><span class="nm">Axis
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4F9C">SB</span><span class="nm">State
+                            Bank of India<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B4272C">KM</span><span class="nm">Kotak
+                            Mahindra<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#D06A1E">BO</span><span class="nm">Bank of
+                            Baroda<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#12326B">YB</span><span class="nm">Yes
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8C1F2F">IF</span><span class="nm">IDFC
+                            FIRST<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#7A2431">IB</span><span class="nm">IndusInd
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A4B12">PN</span><span class="nm">Punjab
+                            National Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123F7A">UB</span><span class="nm">Union
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E4C8A">CB</span><span class="nm">Canara
+                            Bank<small>Bank</small></span></div>
+                </div>
+            </div>
+            <div class="mq" style="margin-top:18px">
+                <div class="mq-track rev">
+                    <div class="plogo"><span class="mono" style="background:#0B4C8F">BF</span><span class="nm">Bajaj
+                            Finserv<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1F4E79">TC</span><span class="nm">Tata
+                            Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A1B2E">AB</span><span class="nm">Aditya
+                            Birla Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0F5C4A">LF</span><span class="nm">L&amp;T
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123A6B">PF</span><span
+                            class="nm">Poonawalla Fincorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B03A1E">HF</span><span class="nm">Hero
+                            FinCorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#155E8A">LE</span><span
+                            class="nm">Lendingkart<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4D7A">FL</span><span
+                            class="nm">FlexiLoans<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A5A12">CH</span><span
+                            class="nm">Cholamandalam<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#9A3218">SF</span><span class="nm">Shriram
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#5A2A6B">PF</span><span class="nm">Piramal
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E5540">GC</span><span class="nm">Godrej
+                            Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0B4C8F">BF</span><span class="nm">Bajaj
+                            Finserv<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1F4E79">TC</span><span class="nm">Tata
+                            Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A1B2E">AB</span><span class="nm">Aditya
+                            Birla Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0F5C4A">LF</span><span class="nm">L&amp;T
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123A6B">PF</span><span
+                            class="nm">Poonawalla Fincorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B03A1E">HF</span><span class="nm">Hero
+                            FinCorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#155E8A">LE</span><span
+                            class="nm">Lendingkart<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4D7A">FL</span><span
+                            class="nm">FlexiLoans<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A5A12">CH</span><span
+                            class="nm">Cholamandalam<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#9A3218">SF</span><span class="nm">Shriram
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#5A2A6B">PF</span><span class="nm">Piramal
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E5540">GC</span><span class="nm">Godrej
+                            Capital<small>NBFC</small></span></div>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="mq-cta">
+                    <span class="mq-count"><b>70+</b> Banks &amp; NBFCs in our network</span>
+                </div>
+                <p
+                    style="font-size:13px;color:var(--muted);text-align:center;margin-top:20px;max-width:760px;margin-left:auto;margin-right:auto">
+                    Names shown are of institutions within our lending network. Sanction remains at the sole discretion
+                    of the
+                    respective lender.</p>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Work we have built</span>
+                    <h2>We do not just advise. We build.</h2>
+                    <p>Websites, dashboards and apps delivered for real businesses across travel, manufacturing,
+                        education,
+                        healthcare and retail.</p>
+                </div>
+                <div class="laptop">
+                    <div class="lid"><img
+                            src="/erp.png"
+                            alt="ERP dashboard built by Vedanjali Consultant" loading="lazy"></div>
+                    <div class="base"></div>
+                    <div class="stand"></div>
+                </div>
+                <div class="devcap">Custom ERP dashboard, built around one client&rsquo;s actual plant workflow</div>
+                <div class="phone-row" style="margin-top:56px">
+                    <div class="phone"><img
+                            src="/gros.png"
+                            alt="Grocery ordering mobile app built by Vedanjali Consultant" loading="lazy"></div>
+                    <div class="phone"><img
+                            src="/l2.jpeg"
+                            alt="Rider & delivery mobile app built by Vedanjali Consultant" loading="lazy"></div>
+                    <div class="phone"><img
+                            src="/len.jpeg"
+                            alt="Laundry service mobile app built by Vedanjali Consultant" loading="lazy"></div>
+                </div>
+                <div class="devcap">Customer, rider and ops apps for a 15-minute grocery startup</div>
+                <div style="text-align:center;margin-top:36px">
+                    <a href="#" data-go="itsoftware" class="btn btn-o">See all IT &amp; software work</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark">
+            <div class="wrap">
+                <span class="kick plain">Why Vedanjali</span>
+                <h2>Everything under one roof,<br>and one person accountable.</h2>
+                <p class="lead">We do not hand off your work to junior teams or leave you tracking six different vendors.
+                    One dedicated
+                    advisor handles your profile from start to finish.</p>
+                <div class="dstat">
+                    <div><strong>Told straight</strong><span>If you do not need a service, we say so, even when it costs
+                            us the engagement.</span></div>
+                    <div><strong>One accountable owner</strong><span>The same advisor stays with you across every
+                            service.</span></div>
+                    <div><strong>Fixed scope</strong><span>Agreed in writing before work starts, so invoices never
+                            surprise anyone.</span></div>
+                    <div><strong>You own it</strong><span>Domain, data, code and registrations are all in your
+                            name.</span></div>
+                </div>
+                <div style="margin-top:40px"><a href="#" data-go="contact" class="btn btn-p">Get a Free Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">How we work</span>
+                    <h2>Four steps, no surprises.</h2>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="n">01</div>
+                        <h4>Eligibility check</h4>
+                        <p>We review your numbers and tell you honestly what is realistic before you spend time on an
+                            application.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">02</div>
+                        <h4>File preparation</h4>
+                        <p>Documents assembled and the case built the way a credit team reads it.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">03</div>
+                        <h4>Lender matching</h4>
+                        <p>We approach the institutions whose criteria your profile actually fits.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">04</div>
+                        <h4>Follow through</h4>
+                        <p>We track the file, answer queries and stay on it until sanction and disbursement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>The questions clients ask us first.</h2>
+                    <p>Straight answers to help you understand how we work.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>What documents do I need to apply for a business loan?</summary>
+                        <div class="ans">Typically, lenders require 12 months of bank statements, 2-3 years of ITR/financials, GST returns, business registration proof, and promoter KYC. We review and organize all your documents before submission to maximize approval chances.</div>
+                    </details>
+                    <details>
+                        <summary>How long does company registration usually take in India?</summary>
+                        <div class="ans">Pvt Ltd and LLP registrations generally take 5 to 7 working days once all promoter documents and digital signature certificates (DSC) are ready. We handle the end-to-end filing with MCA and SPICe+ forms.</div>
+                    </details>
+                    <details>
+                        <summary>Can you guarantee that my trademark will be approved?</summary>
+                        <div class="ans">No consultant or attorney can guarantee trademark approval because the final decision rests with the Trademark Registry. However, we conduct rigorous pre-filing search and classification to minimize objections and prepare strong responses if queries arise.</div>
+                    </details>
+                    <details>
+                        <summary>Do you only work with large companies?</summary>
+                        <div class="ans">Not at all. We work with early-stage startups, MSMEs, small business owners, as well as established enterprises. Our team tailors solutions according to the size and specific stage of your business.</div>
+                    </details>
+                    <details>
+                        <summary>Can you handle funding, registration and my website together?</summary>
+                        <div class="ans">Yes! That is the core advantage of Vedanjali Consultant. You get a single accountable advisor who coordinates across our funding, legal compliance, and IT development teams so you do not have to manage multiple vendors.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Start with one conversation.</h2>
+                <p>Tell us where the business is and what is blocking it. The first conversation costs nothing.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Get a Free Consultation</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-funding">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; Business Funding</div>
+                <span class="kick">Funding &amp; finance</span>
+                <h1>Funding that fits your balance sheet, not a banker's target.</h1>
+                <p>Most loan applications get rejected because of paperwork or wrong lender selection. We review your
+                    numbers, choose the right route, and stay on the file until disbursement.</p>
+                <div class="btns"><a href="#" data-go="contact" class="btn btn-p">Check Your Eligibility</a>
+                    <a href="#partners" class="btn btn-o">View Lending Network</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="svc">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>Business Loan &amp; Business Finance</h3>
+                            <p>Funding for day to day operations, expansion and long term needs, secured or unsecured
+                                depending on
+                                what actually fits your balance sheet.</p>
+                            <div class="pill-wrap"><span class="pill">Eligibility checked first</span>
+                                <span class="pill">Multiple lenders</span><span class="pill">Documents handled</span>
+                            </div>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Business Loan</h4>
+                                <ul>
+                                    <li>Unsecured business loan</li>
+                                    <li>Working capital loan</li>
+                                    <li>Term loan</li>
+                                    <li>Business expansion funding</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>MSME &amp; SME Funding</h4>
+                                <ul>
+                                    <li>MSME loans</li>
+                                    <li>SME loans</li>
+                                    <li>Working capital finance</li>
+                                    <li>Business growth funding</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="svc" id="startup">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>Startup Funding &amp; Advisory</h3>
+                            <p>Without a long track record, lenders and investors judge the plan. A properly built
+                                project report and
+                                a credible financial model are usually what decides the outcome.</p>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Startup Funding</h4>
+                                <ul>
+                                    <li>New business funding</li>
+                                    <li>Startup India advisory</li>
+                                    <li>DPR and project report</li>
+                                    <li>Pitch deck</li>
+                                    <li>Financial projections</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>Machinery &amp; Equipment Finance</h4>
+                                <ul>
+                                    <li>Machinery purchase finance</li>
+                                    <li>Equipment finance</li>
+                                    <li>Technology upgrade finance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="svc">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>Property &amp; Government Backed Funding</h3>
+                            <p>Unlock capital already tied up in property, or use a government guarantee scheme to
+                                borrow without
+                                pledging collateral at all.</p>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Loan Against Property</h4>
+                                <ul>
+                                    <li>Business funding against property</li>
+                                    <li>Working capital against property</li>
+                                    <li>Expansion funding</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>Government &amp; Credit Guarantee</h4>
+                                <ul>
+                                    <li>CGTMSE</li>
+                                    <li>CGSS</li>
+                                    <li>Government-backed funding support</li>
+                                    <li>Collateral-free options for eligible businesses</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec" id="partners">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Our lending network</span>
+                    <h2>Channel partners with 70+ banks and NBFCs.</h2>
+                    <p>One application, assessed against the criteria of the institutions most likely to approve it.
+                        That is the
+                        difference between applying and applying well.</p>
+                </div>
+            </div>
+
+            <div class="mq">
+                <div class="mq-track">
+                    <div class="plogo"><span class="mono" style="background:#0A3A6B">HB</span><span class="nm">HDFC
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#A8362C">IB</span><span class="nm">ICICI
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8B1D3F">AB</span><span class="nm">Axis
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4F9C">SB</span><span class="nm">State
+                            Bank of India<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B4272C">KM</span><span class="nm">Kotak
+                            Mahindra<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#D06A1E">BO</span><span class="nm">Bank of
+                            Baroda<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#12326B">YB</span><span class="nm">Yes
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8C1F2F">IF</span><span class="nm">IDFC
+                            FIRST<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#7A2431">IB</span><span class="nm">IndusInd
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A4B12">PN</span><span class="nm">Punjab
+                            National Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123F7A">UB</span><span class="nm">Union
+                            Bank<small>Bank</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E4C8A">CB</span><span class="nm">Canara
+                            Bank<small>Bank</small></span></div>
+                </div>
+            </div>
+            <div class="mq" style="margin-top:18px">
+                <div class="mq-track rev">
+                    <div class="plogo"><span class="mono" style="background:#0B4C8F">BF</span><span class="nm">Bajaj
+                            Finserv<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1F4E79">TC</span><span class="nm">Tata
+                            Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A1B2E">AB</span><span class="nm">Aditya
+                            Birla Capital<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0F5C4A">LF</span><span class="nm">L&amp;T
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#123A6B">PF</span><span
+                            class="nm">Poonawalla Fincorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#B03A1E">HF</span><span class="nm">Hero
+                            FinCorp<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#155E8A">LE</span><span
+                            class="nm">Lendingkart<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#1B4D7A">FL</span><span
+                            class="nm">FlexiLoans<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#8A5A12">CH</span><span
+                            class="nm">Cholamandalam<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#9A3218">SF</span><span class="nm">Shriram
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#5A2A6B">PF</span><span class="nm">Piramal
+                            Finance<small>NBFC</small></span></div>
+                    <div class="plogo"><span class="mono" style="background:#0E5540">GC</span><span class="nm">Godrej
+                            Capital<small>NBFC</small></span></div>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="mq-cta">
+                    <span class="mq-count"><b>70+</b> Banks &amp; NBFCs in our network</span>
+                </div>
+                <p
+                    style="font-size:13px;color:var(--muted);text-align:center;margin-top:20px;max-width:760px;margin-left:auto;margin-right:auto">
+                    Names shown are of institutions within our lending network. Sanction remains at the sole discretion
+                    of the
+                    respective lender.</p>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">Before you apply</span>
+                    <h2>What lenders will ask for.</h2>
+                    <p>Most rejections are caused by paperwork, not by the business. This is the list we work through
+                        with you
+                        before anything is submitted.</p>
+                </div>
+                <div class="tbl-wrap">
+                    <table class="tbl">
+                        <thead>
+                            <tr>
+                                <th>Document</th>
+                                <th>Why the lender wants it</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>KYC of promoters</td>
+                                <td>Identity, address and credit history of the people behind the business.</td>
+                            </tr>
+                            <tr>
+                                <td>Business registration proof</td>
+                                <td>Confirms the entity legally exists and who is authorised to borrow.</td>
+                            </tr>
+                            <tr>
+                                <td>Bank statements, 12 months</td>
+                                <td>Shows real cash flow, which matters more to a lender than declared profit.</td>
+                            </tr>
+                            <tr>
+                                <td>GST returns</td>
+                                <td>Independent confirmation of turnover.</td>
+                            </tr>
+                            <tr>
+                                <td>Financials, 2 to 3 years</td>
+                                <td>Profitability, existing obligations and repayment capacity.</td>
+                            </tr>
+                            <tr>
+                                <td>Project report or DPR</td>
+                                <td>Required for new projects, expansion and most government schemes.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">How it works</span>
+                    <h2>From enquiry to disbursement.</h2>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="n">01</div>
+                        <h4>Eligibility check</h4>
+                        <p>We review your numbers and tell you honestly what is realistic before you spend time on an
+                            application.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">02</div>
+                        <h4>File preparation</h4>
+                        <p>Documents assembled and the case built the way a credit team reads it.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">03</div>
+                        <h4>Lender matching</h4>
+                        <p>We approach the institutions whose criteria your profile actually fits.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">04</div>
+                        <h4>Follow through</h4>
+                        <p>We track the file, answer queries and stay on it until sanction and disbursement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>Funding questions, answered honestly.</h2>
+                    <p>Straight answers, including the ones other consultants avoid.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>What is the difference between a secured and an unsecured business loan?</summary>
+                        <div class="ans">A secured loan is backed by collateral such as property or machinery, which
+                            usually means a larger amount and a lower rate. An unsecured loan needs no collateral, so it
+                            is faster to arrange but the amount is smaller and the rate higher. Which one suits you
+                            depends on your turnover, your financials and how quickly you need the money.</div>
+                    </details>
+                    <details>
+                        <summary>What is CGTMSE and can my business get collateral free funding?</summary>
+                        <div class="ans">CGTMSE is a government backed credit guarantee scheme that lets eligible micro
+                            and small enterprises borrow without pledging collateral, because the guarantee sits in
+                            place of security. Eligibility depends on the sector, entity type and loan size, and we
+                            assess that before applying.</div>
+                    </details>
+                    <details>
+                        <summary>How long does business loan approval take?</summary>
+                        <div class="ans">An unsecured business loan can be sanctioned in one to two weeks when documents
+                            are ready. Secured facilities and loan against property take longer because of valuation and
+                            legal checks. We tell you the realistic timeline at the assessment stage rather than after
+                            you have applied.</div>
+                    </details>
+                    <details>
+                        <summary>Can a new business or startup get funding?</summary>
+                        <div class="ans">Yes, though the route is different. Without a track record, lenders look at the
+                            promoter profile, the project report and the viability of the plan, which is exactly why a
+                            properly prepared DPR and financial projection matter so much at this stage.</div>
+                    </details>
+                    <details>
+                        <summary>Do you charge a fee even if the loan is not approved?</summary>
+                        <div class="ans">Our fee structure is agreed in writing before we begin, including what happens
+                            if a case is not sanctioned. You will never discover a charge you were not told about
+                            upfront.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Want to know what you actually qualify for?</h2>
+                <p>A short conversation is usually enough for us to tell you which funding route fits, and which will
+                    waste your time.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Check My Eligibility</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-registration">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; Company Registration</div>
+                <span class="kick">Company &amp; compliance</span>
+                <h1>Register once. Stay compliant after.</h1>
+                <p>Registration is the easy part. What catches most founders out is everything that becomes due
+                    afterwards.
+                    We set the business up correctly, then keep it in good standing.</p>
+                <div class="btns"><a href="#" data-go="contact" class="btn btn-p">Register My Business</a>
+                    <a href="#compare" class="btn btn-o">Compare Structures</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="svc-grid">
+                    <div class="svc-l">
+                        <h3>Business &amp; Company Services</h3>
+                        <p>Choosing the wrong structure is expensive to undo later. We advise on which entity actually
+                            suits your
+                            plans, your funding route and your tax position, then complete the registration end to end.
+                        </p>
+                        <div class="pill-wrap"><span class="pill">Name check first</span>
+                            <span class="pill">Documents handled</span><span class="pill">Compliance calendar</span>
+                        </div>
+                    </div>
+                    <div class="sub-grid">
+                        <div class="sub-box">
+                            <h4>Company Registration</h4>
+                            <ul>
+                                <li>Private limited company</li>
+                                <li>LLP registration</li>
+                                <li>Partnership firm</li>
+                                <li>Section 8 company</li>
+                            </ul>
+                        </div>
+                        <div class="sub-box">
+                            <h4>Startup Registrations</h4>
+                            <ul>
+                                <li>Startup India registration</li>
+                                <li>DPIIT registration</li>
+                                <li>Tax exemption under 80-IAC</li>
+                            </ul>
+                        </div>
+                        <div class="sub-box" id="licensing">
+                            <h4>Statutory &amp; Licensing</h4>
+                            <ul>
+                                <li>MSME / Udyam registration</li>
+                                <li>GST registration</li>
+                                <li>IEC code</li>
+                                <li>FSSAI registration</li>
+                            </ul>
+                        </div>
+                        <div class="sub-box">
+                            <h4>Ongoing Compliance</h4>
+                            <ul>
+                                <li>Annual filings and returns</li>
+                                <li>Statutory record keeping</li>
+                                <li>Business compliance services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint" id="compare">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">Choosing a structure</span>
+                    <h2>Which entity is right for you?</h2>
+                    <p>The honest short version, before anybody sells you the most expensive option.</p>
+                </div>
+                <div class="tbl-wrap">
+                    <table class="tbl">
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>Private Limited</th>
+                                <th>LLP</th>
+                                <th>Partnership</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Best for</td>
+                                <td>Startups raising investment</td>
+                                <td>Professional and family firms</td>
+                                <td>Small local businesses</td>
+                            </tr>
+                            <tr>
+                                <td>Liability</td>
+                                <td>Limited</td>
+                                <td>Limited</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <td>Can raise equity</td>
+                                <td>Yes</td>
+                                <td>Difficult</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>Compliance load</td>
+                                <td>Higher</td>
+                                <td>Moderate</td>
+                                <td>Low</td>
+                            </tr>
+                            <tr>
+                                <td>Credibility with lenders</td>
+                                <td>Strongest</td>
+                                <td>Good</td>
+                                <td>Limited</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="font-size:14px;color:var(--muted);margin-top:16px">This is a general comparison. The right
+                    answer
+                    depends on your funding plans, your partners and your tax position, which is what the consultation
+                    is for.</p>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>Registration questions, answered plainly.</h2>
+                    <p>Straight answers, including the ones other consultants avoid.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>Should I register a private limited company or an LLP?</summary>
+                        <div class="ans">A private limited company is the right structure if you plan to raise
+                            investment, because investors expect shares. An LLP has lighter compliance and suits
+                            professional firms and family run businesses that do not intend to raise outside capital.
+                            Choosing wrongly is expensive to undo later, so we advise before you file.</div>
+                    </details>
+                    <details>
+                        <summary>How long does company registration take?</summary>
+                        <div class="ans">Usually seven to fifteen working days once documents are in order. Name
+                            approval is the stage that most often causes delay, which is why we check name availability
+                            properly before applying.</div>
+                    </details>
+                    <details>
+                        <summary>What is Udyam registration and do I need it?</summary>
+                        <div class="ans">Udyam is the government registration that formally recognises your business as
+                            a micro, small or medium enterprise. It is free, quick, and it unlocks MSME benefits
+                            including priority lending, subsidies and protection against delayed payments. Almost every
+                            small business should have it.</div>
+                    </details>
+                    <details>
+                        <summary>What is DPIIT recognition and the 80-IAC exemption?</summary>
+                        <div class="ans">DPIIT recognition marks your company as a recognised startup, which opens
+                            access to government schemes and tenders. Section 80-IAC is a separate approval that gives
+                            eligible startups a three year income tax exemption. They are applied for separately and the
+                            criteria are strict, so we assess eligibility first.</div>
+                    </details>
+                    <details>
+                        <summary>What compliance is required after registration?</summary>
+                        <div class="ans">Annual returns and financial statements, board and statutory records, GST
+                            returns if registered, and director or partner filings. Missing them attracts penalties that
+                            accumulate quietly, which is why we offer an ongoing compliance calendar rather than only
+                            handling the registration.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Not sure which registration you need?</h2>
+                <p>Tell us what the business does and what you plan to do next. We will tell you exactly what to
+                    register, and what you can safely skip.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Talk to an Advisor</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-trademark">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; Trademark &amp; IP</div>
+                <span class="kick">Trademark, patent &amp; IP</span>
+                <h1>Protect the name before somebody else does.</h1>
+                <p>Most businesses think about trademarks only after a problem arrives. By then the options are fewer
+                    and the
+                    cost is higher. Registering early is the cheapest insurance a brand can buy.</p>
+                <div class="btns"><a href="#" data-go="contact" class="btn btn-p">Start a Trademark Search</a></div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="svc-grid">
+                    <div class="svc-l">
+                        <h3>Intellectual Property &amp; Legal Registrations</h3>
+                        <p>From a first trademark search through to objections, hearings and renewals, we handle the
+                            full
+                            lifecycle, so your brand, your product and your design stay yours.</p>
+                        <div class="pill-wrap"><span class="pill">Preliminary search</span>
+                            <span class="pill">Objection handling</span><span class="pill">Renewal reminders</span>
+                        </div>
+                    </div>
+                    <div class="sub-grid">
+                        <div class="sub-box">
+                            <h4>Trademark</h4>
+                            <ul>
+                                <li>Trademark registration</li>
+                                <li>Trademark renewal</li>
+                                <li>Trademark objection reply</li>
+                                <li>Hearing representation</li>
+                            </ul>
+                        </div>
+                        <div class="sub-box">
+                            <h4>Other Intellectual Property</h4>
+                            <ul>
+                                <li>Patent registration</li>
+                                <li>Copyright registration</li>
+                                <li>Design registration</li>
+                                <li>IP protection and consultancy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">The process</span>
+                    <h2>How a trademark actually gets registered.</h2>
+                    <p>Knowing the stages upfront prevents the anxiety that comes when an objection lands.</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="n">01</div>
+                        <h4>Search</h4>
+                        <p>We check whether the mark is available and flag conflicts before you spend on filing.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">02</div>
+                        <h4>Filing</h4>
+                        <p>Application filed in the correct class. You can use the TM symbol from this point.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">03</div>
+                        <h4>Examination</h4>
+                        <p>The registry reviews it. If an objection is raised, we draft the reply and attend the
+                            hearing.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">04</div>
+                        <h4>Registration</h4>
+                        <p>Once published without opposition, the mark is registered and the R symbol can be used.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>Trademark and IP questions.</h2>
+                    <p>Straight answers, including the ones other consultants avoid.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>How long does trademark registration take?</summary>
+                        <div class="ans">You can use the TM symbol as soon as the application is filed, usually within a
+                            few days. Full registration and the R symbol take considerably longer because of examination
+                            and publication stages, and objections are common. We handle objections and hearings as part
+                            of the service.</div>
+                    </details>
+                    <details>
+                        <summary>What is the difference between TM and R?</summary>
+                        <div class="ans">TM can be used immediately after filing and signals that you claim the mark. R
+                            can only be used once the trademark is formally registered, and it carries far stronger
+                            legal protection.</div>
+                    </details>
+                    <details>
+                        <summary>What happens if my trademark gets an objection?</summary>
+                        <div class="ans">Objections are routine, not a failure. The registry raises a concern and we
+                            file a written reply, attend a hearing if required, and argue the case. Handling the
+                            objection properly is where most of the value of a trademark service actually sits.</div>
+                    </details>
+                    <details>
+                        <summary>Can I trademark my logo and my name separately?</summary>
+                        <div class="ans">Yes, and often you should. A word mark protects the name in any styling, while
+                            a device mark protects the logo as designed. If the name is the asset, the word mark is
+                            usually the priority.</div>
+                    </details>
+                    <details>
+                        <summary>What is the difference between a trademark, a patent and a copyright?</summary>
+                        <div class="ans">A trademark protects a brand name or logo. A patent protects an invention or a
+                            technical process. A copyright protects original creative work such as writing, design,
+                            music or code. Many businesses need more than one.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Is your brand name still available?</h2>
+                <p>Send us the name and we will run a preliminary search and tell you honestly whether it is worth
+                    filing.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Check My Brand Name</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-insurance">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; Insurance</div>
+                <span class="kick">Insurance advisory</span>
+                <h1>Cover that actually pays when you need it.</h1>
+                <p>Most businesses are either underinsured or paying for cover they will never claim. We assess what
+                    your
+                    business genuinely needs, explain the exclusions before you sign, and stay with you at claim time.
+                </p>
+                <div class="btns"><a href="#" data-go="contact" class="btn btn-p">Get an Insurance Review</a></div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="svc">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>Business &amp; Commercial Insurance</h3>
+                            <p>Cover for the assets, the premises and the liabilities that come with running a business.
+                                Often a
+                                contractual requirement before larger clients will work with you.</p>
+                            <div class="pill-wrap"><span class="pill">Needs assessed first</span>
+                                <span class="pill">Exclusions explained</span><span class="pill">Claim support</span>
+                            </div>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Property &amp; Assets</h4>
+                                <ul>
+                                    <li>Fire and property insurance</li>
+                                    <li>Stock and inventory cover</li>
+                                    <li>Machinery breakdown</li>
+                                    <li>Burglary and theft</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>Liability</h4>
+                                <ul>
+                                    <li>Public liability</li>
+                                    <li>Product liability</li>
+                                    <li>Professional indemnity</li>
+                                    <li>Directors and officers cover</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="svc">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>People &amp; Continuity</h3>
+                            <p>Cover for the people the business depends on, and for the disruption caused if something
+                                happens to
+                                them. This is the category most businesses postpone and most regret postponing.</p>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Employee Cover</h4>
+                                <ul>
+                                    <li>Group health insurance</li>
+                                    <li>Group personal accident</li>
+                                    <li>Workmen compensation policy</li>
+                                    <li>Group term life</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>Business Continuity</h4>
+                                <ul>
+                                    <li>Key man insurance</li>
+                                    <li>Business interruption cover</li>
+                                    <li>Credit insurance</li>
+                                    <li>Cyber liability</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="svc">
+                    <div class="svc-grid">
+                        <div class="svc-l">
+                            <h3>Trade, Transit &amp; Motor</h3>
+                            <p>For businesses that move goods or run vehicles, where a single uninsured incident can
+                                wipe out a
+                                quarter of profit.</p>
+                        </div>
+                        <div class="sub-grid">
+                            <div class="sub-box">
+                                <h4>Trade &amp; Transit</h4>
+                                <ul>
+                                    <li>Marine and transit insurance</li>
+                                    <li>Import and export cover</li>
+                                    <li>Warehouse and storage cover</li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4>Motor &amp; Fleet</h4>
+                                <ul>
+                                    <li>Commercial vehicle insurance</li>
+                                    <li>Fleet policies</li>
+                                    <li>Renewal and claims management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark">
+            <div class="wrap">
+                <span class="kick plain">Why it sits with us</span>
+                <h2>Insurance is a funding<br>conversation too.</h2>
+                <p class="lead">Lenders ask what is insured before they lend against it. Buyers ask for liability cover
+                    before
+                    they award a contract. Because we already handle your funding, registration and compliance, we see
+                    where cover
+                    is missing before somebody else makes it a problem.</p>
+                <div class="dstat">
+                    <div><strong>Assessed, not sold</strong><span>We start from what the business risks, not from what
+                            pays the highest commission.</span></div>
+                    <div><strong>Exclusions upfront</strong><span>You are told what is not covered before you sign, not
+                            at claim time.</span></div>
+                    <div><strong>Renewals tracked</strong><span>We tell you before a policy lapses rather than
+                            after.</span></div>
+                    <div><strong>Claim assistance</strong><span>Documentation and follow up handled when you actually
+                            need it.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>Insurance questions, answered plainly.</h2>
+                    <p>Straight answers, including the ones other consultants avoid.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>What insurance does a small business actually need?</summary>
+                        <div class="ans">At minimum, cover for the premises and stock, liability cover in case a third
+                            party is harmed, and health cover for employees. Beyond that it depends on what you own, who
+                            you employ and what you are contractually required to hold.</div>
+                    </details>
+                    <details>
+                        <summary>Is group health insurance compulsory for my business?</summary>
+                        <div class="ans">Employee health cover is expected under several regulations and is often
+                            required by larger clients before they award contracts. Even where it is not mandatory, it
+                            is one of the cheapest ways to retain staff.</div>
+                    </details>
+                    <details>
+                        <summary>What is key man insurance?</summary>
+                        <div class="ans">Cover on the life of a person the business genuinely depends on, usually a
+                            founder or a key director. If that person is lost, the payout gives the business time to
+                            recover rather than collapsing with them. Lenders and investors often ask about it.</div>
+                    </details>
+                    <details>
+                        <summary>Do you sell the policy or advise on it?</summary>
+                        <div class="ans">We assess what cover the business actually needs, compare options across
+                            insurers and help you place and maintain the policy. The objective is appropriate cover, not
+                            the largest premium.</div>
+                    </details>
+                    <details>
+                        <summary>What happens at claim time?</summary>
+                        <div class="ans">This is where most policies disappoint people, usually because of an exclusion
+                            nobody explained at the time of sale. We go through exclusions with you upfront and assist
+                            with documentation when a claim arises.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Not sure what you are actually covered for?</h2>
+                <p>Send us your existing policies. We will tell you what is covered, what is not, and where the real
+                    gaps are.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Get an Insurance Review</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-itsoftware">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; IT &amp; Software</div>
+                <span class="kick">IT &amp; software solutions</span>
+                <h1>We do not just advise. We build.</h1>
+                <p>Websites, mobile apps, ERP and CRM systems delivered for real businesses across travel,
+                    manufacturing,
+                    education, healthcare, retail and hospitality. Everything on this page is work we have shipped.</p>
+                <div class="btns"><a href="#" data-go="contact" class="btn btn-p">Discuss a Requirement</a>
+                    <a href="#work" class="btn btn-o">See Our Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec" id="work">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Websites we have built</span>
+                    <h2>Live sites, not mockups.</h2>
+                    <p>Design, development, content and hosting handled end to end.</p>
+                </div>
+                <div class="show-grid">
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                                <span class="url">takeoffnow.in</span>
+                            </div>
+                            <img src="/images/portfolio-takeoffnow.jpg"
+                                alt="Take Off Now immigration portal" loading="lazy">
+                        </div>
+                        <div class="name">Take Off Now</div>
+                        <div class="cat">Immigration &amp; Visa Consulting</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                                <span class="url">ashirwadplastics.com</span>
+                            </div>
+                            <img src="/images/portfolio-ashirwadplastics.jpg"
+                                alt="Ashirwad Plastics corporate manufacturing website" loading="lazy">
+                        </div>
+                        <div class="name">Ashirwad Plastics</div>
+                        <div class="cat">Industrial Manufacturing</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                                <span class="url">legalolympiad.in</span>
+                            </div>
+                            <img src="/images/portfolio-legalolympiad.jpg"
+                                alt="Legal Olympiad national competition portal" loading="lazy">
+                        </div>
+                        <div class="name">Legal Olympiad</div>
+                        <div class="cat">EdTech &amp; Online Examination</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Internal systems</span>
+                    <h2>ERP and CRM built for the way you actually work.</h2>
+                    <p>Software that eliminates spreadsheets and connects plant, sales, and accounts.</p>
+                </div>
+                <div class="show-grid">
+                    <div class="show-item">
+                        <div class="laptop">
+                            <div class="lid"><img
+                                    src="/images/mockup-erp-laptop.svg"
+                                    alt="Custom ERP dashboard built by Vedanjali Consultant" loading="lazy"></div>
+                            <div class="base"></div>
+                            <div class="stand"></div>
+                        </div>
+                        <div class="name" style="text-align:center;margin-top:16px">Enterprise Manufacturing ERP</div>
+                        <div class="cat" style="text-align:center">Raw material, production &amp; dispatch</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                                <span class="url">crm.vedanjali.internal</span>
+                            </div>
+                            <img src="/images/mockup-crm-browser.svg"
+                                alt="CRM enterprise dashboard built by Vedanjali Consultant" loading="lazy">
+                        </div>
+                        <div class="name">Intelligent Sales CRM</div>
+                        <div class="cat">Pipeline, lead scoring &amp; WhatsApp automation</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                                <span class="url">hrm.pulse.internal</span>
+                            </div>
+                            <img src="/images/mockup-hrm-browser.svg"
+                                alt="HRM Pulse workforce management platform" loading="lazy">
+                        </div>
+                        <div class="name">HRM Pulse</div>
+                        <div class="cat">Attendance, payroll &amp; compliance OS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Industry solutions</span>
+                    <h2>Ready-built architectures for specific verticals.</h2>
+                    <p>Proven software foundations that deploy in weeks, customized to your exact operation.</p>
+                </div>
+                <div class="show-grid">
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">order.bistro.app</span></div>
+                            <img src="/images/system-restaurant-ordering.jpg" alt="Restaurant ordering website" loading="lazy">
+                        </div>
+                        <div class="name">Restaurant Online Ordering</div>
+                        <div class="cat">Direct QR &amp; web ordering system</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">kds.kitchen.app</span></div>
+                            <img src="/images/system-kitchen-analytics.jpg" alt="Kitchen order management display" loading="lazy">
+                        </div>
+                        <div class="name">Kitchen Order Display (KDS)</div>
+                        <div class="cat">Real-time prep timer &amp; station analytics</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">fashion.store.in</span></div>
+                            <img src="/images/system-ecommerce-store.jpg" alt="Luxury fashion ecommerce storefront" loading="lazy">
+                        </div>
+                        <div class="name">Luxury Fashion E-Commerce</div>
+                        <div class="cat">High-conversion storefront &amp; checkout</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">admin.grocery.app</span></div>
+                            <img src="/images/system-grocery-admin.jpg" alt="Grocery admin dashboard" loading="lazy">
+                        </div>
+                        <div class="name">Hyper-Local Grocery Admin</div>
+                        <div class="cat">Catalog, warehouse stock &amp; rider routing</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">ehr.careclinic.in</span></div>
+                            <img src="/images/system-clinic-platform.jpg" alt="Clinic and EHR software platform" loading="lazy">
+                        </div>
+                        <div class="name">Care Clinic EHR &amp; Appointments</div>
+                        <div class="cat">Patient records, Rx &amp; tele-consulting</div>
+                    </div>
+                    <div class="show-item">
+                        <div class="browser">
+                            <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">os.ironfitness.in</span></div>
+                            <img src="/images/system-gym-management.jpg" alt="Gym and fitness centre management OS" loading="lazy">
+                        </div>
+                        <div class="name">Gym &amp; Fitness Center OS</div>
+                        <div class="cat">Biometric access, member subs &amp; trainers</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint" id="services">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">Software &amp; Digital Solutions</span>
+                    <h2>Custom software tailored to your workflow.</h2>
+                    <p>Design, development, integrations and cloud infrastructure managed under one roof.</p>
+                </div>
+                <div class="g3">
+                    <div class="card">
+                        <h3>Web &amp; E-commerce</h3>
+                        <p>Corporate websites, custom web applications, e-commerce portals, and landing pages optimized for speed, SEO, and conversions.</p>
+                        <ul>
+                            <li>Custom Web Applications</li>
+                            <li>E-commerce Solutions</li>
+                            <li>Corporate Portals</li>
+                            <li>API &amp; Payment Integrations</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>ERP &amp; CRM Systems</h3>
+                        <p>Tailored enterprise software designed around your actual plant, sales, inventory, or billing workflow rather than bloated generic tools.</p>
+                        <ul>
+                            <li>Manufacturing ERP</li>
+                            <li>Custom CRM Systems</li>
+                            <li>Billing &amp; Inventory Software</li>
+                            <li>WhatsApp &amp; Tally Integration</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Mobile Apps &amp; Cloud</h3>
+                        <p>Cross-platform iOS &amp; Android mobile applications, cloud deployment, DevOps, and digital marketing services to drive user growth.</p>
+                        <ul>
+                            <li>Android &amp; iOS Apps</li>
+                            <li>Cloud Hosting &amp; AWS/GCP</li>
+                            <li>SEO &amp; Digital Marketing</li>
+                            <li>Maintenance &amp; Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">Development lifecycle</span>
+                    <h2>How we build software.</h2>
+                    <p>Transparent progress and clear specs from start to deployment.</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="n">01</div>
+                        <h4>Discovery &amp; Wireframing</h4>
+                        <p>We map out your business processes, user roles, and data requirements before writing code.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">02</div>
+                        <h4>UI/UX &amp; Architecture</h4>
+                        <p>Designing modern, intuitive interfaces and setting up robust database schemas.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">03</div>
+                        <h4>Agile Development</h4>
+                        <p>Iterative development sprints with regular demos and staging environments for testing.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">04</div>
+                        <h4>Deployment &amp; Training</h4>
+                        <p>Final deployment on cloud servers, team training, and handover of complete source code.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h"><span class="kick">FAQ</span>
+                    <h2>IT &amp; Software questions.</h2>
+                    <p>Clear answers on process, intellectual property, and support.</p>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>How do you structure an IT project?</summary>
+                        <div class="ans">We begin with a clear specification and scope before any code is written, so you know exactly what is being built and what it will cost. Milestones are agreed upfront and progress is visible throughout.</div>
+                    </details>
+                    <details>
+                        <summary>Do you provide post-launch support and maintenance?</summary>
+                        <div class="ans">Yes. Software needs ongoing updates, security patches and hosting management. We offer post-launch support agreements so your site, app or ERP stays running smoothly.</div>
+                    </details>
+                    <details>
+                        <summary>Can you integrate custom software with our existing accounting or CRM system?</summary>
+                        <div class="ans">Yes. We build custom APIs and integrations to connect your operational systems with Tally, WhatsApp, payment gateways and existing CRMs.</div>
+                    </details>
+                    <details>
+                        <summary>Who owns the code and intellectual property after completion?</summary>
+                        <div class="ans">You do. Upon full payment, all custom source code, assets and intellectual property are transferred to your company.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Have a custom software or website project in mind?</h2>
+                <p>Tell us your requirements and we will provide an accurate scope, timeline, and proposal.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Discuss Your Requirement</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-about">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; About</div>
+                <span class="kick">About us</span>
+                <h1>One firm, instead of four vendors.</h1>
+                <p>Vedanjali Consultant exists because growing a business in India means dealing with funding,
+                    registration,
+                    compliance, intellectual property and technology at the same time, usually through people who have
+                    never
+                    spoken to each other.</p>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="svc-grid">
+                    <div class="svc-l">
+                        <h3>What we do</h3>
+                        <p>We handle the work that sits between an idea and a working business. Raising the money,
+                            forming the
+                            entity, keeping it compliant, protecting the brand, building the systems it runs on, and
+                            bringing
+                            customers to it.</p>
+                        <p style="margin-top:14px">Every one of those is a service somebody else will happily sell you
+                            in
+                            isolation. The difference here is that they are coordinated, by people who already
+                            understand your
+                            business because you explained it once.</p>
+                    </div>
+                    <div class="sub-grid">
+                        <div class="sub-box">
+                            <h4>Who we work with</h4>
+                            <ul>
+                                <li>Proprietorships and small businesses</li>
+                                <li>Early stage startups</li>
+                                <li>MSME manufacturers and traders</li>
+                                <li>Clinics, restaurants and retail</li>
+                                <li>Professional and service firms</li>
+                            </ul>
+                        </div>
+                        <div class="sub-box">
+                            <h4>What we believe</h4>
+                            <ul>
+                                <li>Say no when a service will not help</li>
+                                <li>Put scope in writing before starting</li>
+                                <li>Explain in plain words, never jargon</li>
+                                <li>The client owns everything we build</li>
+                                <li>A delayed answer beats a wrong one</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark">
+            <div class="wrap">
+                <span class="kick plain">How we are different</span>
+                <h2>Advice you can act on,<br>not a proposal you cannot read.</h2>
+                <p class="lead">Consulting has a reputation for producing documents nobody uses. We would rather be
+                    judged on
+                    whether the loan came through, the company got registered, the trademark held, and the software
+                    actually
+                    went live.</p>
+                <div class="dstat">
+                    <div><strong>Told straight</strong><span>If you do not need a service, we say so, even when it costs
+                            us the engagement.</span></div>
+                    <div><strong>One accountable owner</strong><span>The same advisor stays with you across every
+                            service.</span></div>
+                    <div><strong>Fixed scope</strong><span>Agreed in writing before work starts, so invoices never
+                            surprise anyone.</span></div>
+                    <div><strong>You own it</strong><span>Domain, data, code and registrations are all in your
+                            name.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctaband">
+            <div class="wrap">
+                <h2>Start with one conversation.</h2>
+                <p>Tell us where the business is and what is blocking it. The first conversation costs nothing.</p>
+                <a href="#" data-go="contact" class="btn btn-w">Get a Free Consultation</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="pg" id="pg-contact">
+        <section class="phero">
+            <div class="wrap">
+                <div class="crumb"><a href="#" data-go="home">Home</a> &nbsp;/&nbsp; Contact</div>
+                <span class="kick">Contact</span>
+                <h1>Let us start with one conversation.</h1>
+                <p>Tell us what you are trying to do. We will tell you which service solves it, roughly what it
+                    involves, and
+                    whether you actually need us for it. We reply the same working day.</p>
+            </div>
+        </section>
+
+        <section class="sec">
+            <div class="wrap">
+                <div class="cgrid">
+
+                    <div class="cinfo">
+                        <div class="row">
+                            <div class="ic">&#9993;</div>
+                            <div>
+                                <div class="lbl">Email</div><a class="val"
+                                    href="mailto:info@vedanjaliconsultant.in">info@vedanjaliconsultant.in</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ic">&#9742;</div>
+                            <div>
+                                <div class="lbl">Phone &amp; WhatsApp</div><a class="val" href="tel:+919213588029">+91
+                                    92135 88029</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ic">&#127760;</div>
+                            <div>
+                                <div class="lbl">Website</div><a class="val"
+                                    href="https://vedanjaliconsultant.in">vedanjaliconsultant.in</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ic">&#128337;</div>
+                            <div>
+                                <div class="lbl">Working hours</div>
+                                <div class="val">Monday to Saturday, 10am to 7pm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form onsubmit="return sendEnq(event)">
+                        <div class="f-row">
+                            <div><label for="nm">Your name</label><input id="nm" required placeholder="Full name"></div>
+                            <div><label for="ph">Phone</label><input id="ph" required placeholder="10 digit number">
+                            </div>
+                        </div>
+                        <label for="em">Email</label>
+                        <input id="em" type="email" placeholder="you@company.com">
+                        <label for="sv">What do you need help with</label>
+                        <select id="sv">
+                            <option>Business funding and finance</option>
+                            <option>Company registration and compliance</option>
+                            <option>Startup consultancy, DPR or pitch deck</option>
+                            <option>Trademark, patent or IP</option>
+                            <option>IT and software solutions</option>
+                            <option>Digital marketing and branding</option>
+                            <option>Certification and licensing</option>
+                            <option>Not sure yet</option>
+                        </select>
+                        <label for="ms">Tell us briefly</label>
+                        <textarea id="ms"
+                            placeholder="A line or two about your business and what you are trying to do"></textarea>
+                        <button class="btn btn-p" type="submit">Send Enquiry on WhatsApp</button>
+                        <div class="fnote">Or email us at <a href="mailto:info@vedanjaliconsultant.in"
+                                style="color:var(--gold);font-weight:600">info@vedanjaliconsultant.in</a></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec tint">
+            <div class="wrap">
+                <div class="sec-h mid"><span class="kick">What happens next</span>
+                    <h2>No sales pressure, just an answer.</h2>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="n">01</div>
+                        <h4>You send the enquiry</h4>
+                        <p>WhatsApp, email or phone, whichever is easiest for you.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">02</div>
+                        <h4>We reply the same day</h4>
+                        <p>With a first view on whether we can help and what it would involve.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">03</div>
+                        <h4>A free consultation</h4>
+                        <p>A proper conversation about the business, at no cost and with no obligation.</p>
+                    </div>
+                    <div class="step">
+                        <div class="n">04</div>
+                        <h4>Scope in writing</h4>
+                        <p>If it makes sense to work together, you get the scope and price in writing first.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="wrap">
+            <div class="fgrid">
+                <div>
+                    <img class="flogo logo-light"
+                        src="/images/logo-light.png" alt="Vedanjali Consultant" width="120"><img
+                        class="flogo logo-dark"
+                        src="/images/logo-dark.jpg" alt="Vedanjali Consultant" width="120">
+                    <p>Business funding, MSME finance, company registration, trademark protection, and custom software
+                        development for Indian businesses.</p>
+                </div>
+                <div>
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#" data-go="funding">Business Loans</a></li>
+                        <li><a href="#" data-go="registration">Company Registration</a></li>
+                        <li><a href="#" data-go="trademark">Trademark &amp; IP</a></li>
+                        <li><a href="#" data-go="itsoftware">IT &amp; Software</a></li>
+                        <li><a href="#" data-go="insurance">Insurance Advisory</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#" data-go="home">Home</a></li>
+                        <li><a href="#" data-go="about">About Us</a></li>
+                        <li><a href="#" data-go="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="mailto:info@vedanjaliconsultant.in">info@vedanjaliconsultant.in</a></li>
+                        <li><a href="tel:+919213588029">+91 92135 88029</a></li>
+                        <li><a href="https://vedanjaliconsultant.in">vedanjaliconsultant.in</a></li>
+                        <li><a href="#" data-go="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fbot">
+                <div>&copy; <span id="yr"></span> Vedanjali Consultant. All rights reserved.</div>
+                <div><a href="mailto:info@vedanjaliconsultant.in">info@vedanjaliconsultant.in</a> &nbsp;·&nbsp; <a
+                        href="tel:+919213588029">+91 92135 88029</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <a class="wa"
+        href="https://wa.me/919213588029?text=Hello%20Vedanjali%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+        target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+                d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.8.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.5-.3z" />
+            <path
+                d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.3c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3c-.8-1.3-1.3-2.8-1.3-4.4 0-4.5 3.7-8.2 8.2-8.2s8.2 3.7 8.2 8.2-3.6 8.3-8 8.3z" />
+        </svg>
+    </a>
+
+
+    <script>
+        (function () {
+            var yr = document.getElementById('yr'); if (yr) yr.textContent = new Date().getFullYear();
+            var root = document.documentElement, tg = document.getElementById('tgl');
+            var saved = null; try { saved = localStorage.getItem('vc-theme'); } catch (e) { }
+            if (saved === 'dark') {
+                root.setAttribute('data-theme', 'dark');
+                var lb0 = document.getElementById('tglLbl'); if (lb0) lb0.textContent = 'Dark';
+                var tg0 = document.getElementById('tgl'); if (tg0) tg0.setAttribute('aria-checked', 'true');
+            }
+            if (tg) tg.addEventListener('click', function () {
+                var d = root.getAttribute('data-theme') === 'dark';
+                if (d) root.removeAttribute('data-theme'); else root.setAttribute('data-theme', 'dark');
+                try { localStorage.setItem('vc-theme', d ? 'light' : 'dark'); } catch (e) { }
+                var lb = document.getElementById('tglLbl'); if (lb) lb.textContent = d ? 'Light' : 'Dark';
+                this.setAttribute('aria-checked', d ? 'false' : 'true');
+            });
+            var menu = document.getElementById('menu'), burger = document.getElementById('burger');
+            burger.addEventListener('click', function () { menu.classList.toggle('open'); });
+
+            function go(id) {
+                document.querySelectorAll('.pg').forEach(function (p) { p.classList.remove('show'); p.style.display = 'none'; });
+                var t = document.getElementById('pg-' + id);
+                if (t) { t.style.display = 'block'; t.classList.add('show'); }
+                menu.querySelectorAll('a[data-go]').forEach(function (a) {
+                    a.classList.toggle('on', a.getAttribute('data-go') === id && !a.classList.contains('btn'));
+                });
+                menu.classList.remove('open');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            document.addEventListener('click', function (e) {
+                var a = e.target.closest('[data-go]');
+                if (a) { e.preventDefault(); go(a.getAttribute('data-go')); }
+            });
+            go('home');
+
+            window.sendEnq = function (e) {
+                e.preventDefault();
+                var g = function (i) { var el = document.getElementById(i); return el ? el.value.trim() : ''; };
+                var t = "New enquiry from the website%0A%0A"
+                    + "Name: " + encodeURIComponent(g('nm')) + "%0A"
+                    + "Phone: " + encodeURIComponent(g('ph')) + "%0A"
+                    + (g('em') ? "Email: " + encodeURIComponent(g('em')) + "%0A" : "")
+                    + "Service: " + encodeURIComponent(g('sv')) + "%0A"
+                    + (g('ms') ? "Details: " + encodeURIComponent(g('ms')) : "");
+                window.open("https://wa.me/919213588029?text=" + t, "_blank");
+                return false;
+            };
+        })();
+    </script>
+</body>
+
+</html>
