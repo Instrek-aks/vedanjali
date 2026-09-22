@@ -22,6 +22,19 @@
 <meta name="twitter:title" content="Vedanjali Consultant | Business Funding, Company Registration, Trademark & IT Solutions">
 <meta name="twitter:description" content="Vedanjali Consultant helps Indian businesses get business loans, MSME and startup funding, company registration, GST, Udyam, trademark and patent registration, plus websites, ERP, CRM and digital marketing.">
 <meta name="twitter:image" content="/logo.png">
+<!-- Instant Theme Bootstrap to prevent flash of wrong theme -->
+<script>
+  (function() {
+    try {
+      var saved = localStorage.getItem('vc-theme');
+      if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
 <div id="root"></div>

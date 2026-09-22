@@ -8,7 +8,11 @@ export default function ThemeToggle() {
     try {
       saved = localStorage.getItem('vc-theme');
     } catch (e) {}
-    if (saved === 'dark') {
+    const isDark =
+      saved === 'dark' ||
+      (!saved && (document.documentElement.getAttribute('data-theme') === 'dark' || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)));
+
+    if (isDark) {
       setTheme('dark');
       document.documentElement.setAttribute('data-theme', 'dark');
     } else {
