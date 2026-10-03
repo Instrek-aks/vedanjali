@@ -2334,10 +2334,12 @@ footer li a:hover {
   display: flex;
   align-items: center;
   background: var(--gold-mid);
-  color: #000;
+  color: #0A0A0A;
   font-family: 'Manrope', sans-serif;
   font-size: 14px;
   font-weight: 600;
+  border-bottom: 1px solid var(--hair);
+  transition: background 0.25s ease, border-color 0.25s ease;
 }
 
 .live-updates-badge {
@@ -2351,6 +2353,8 @@ footer li a:hover {
   letter-spacing: 0.5px;
   white-space: nowrap;
   font-size: 13px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 .live-dot {
@@ -2371,15 +2375,17 @@ footer li a:hover {
 .live-updates-marquee {
   flex: 1;
   overflow: hidden;
-  color: #fff;
+  color: #14110B;
   white-space: nowrap;
   display: flex;
   align-items: center;
+  mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
 }
 
 .marquee-content {
   display: inline-flex;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 25s linear infinite;
 }
 
 .marquee-content span {
@@ -2393,19 +2399,46 @@ footer li a:hover {
 }
 
 .live-section {
-  background: #fdf7e3;
-  padding: 30px 0 60px 0;
+  background: var(--cream);
+  padding: 36px 0 60px 0;
+  border-bottom: 1px solid var(--hair);
+  transition: background 0.25s ease, border-color 0.25s ease;
 }
 
 .live-banners {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 
 .live-banners img {
   width: 100%;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--line);
+}
+
+[data-theme="dark"] .live-updates-bar {
+  background: #181511;
+  border-bottom-color: var(--hair);
+}
+
+[data-theme="dark"] .live-updates-badge {
+  background: #0A0A0A;
+  color: var(--gold-pale);
+}
+
+[data-theme="dark"] .live-updates-marquee {
+  color: #FAF6EE;
+}
+
+[data-theme="dark"] .live-section {
+  background: #0E0D0C;
+  border-bottom-color: var(--hair);
+}
+
+[data-theme="dark"] .live-banners img {
+  border-color: var(--hair);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
 }

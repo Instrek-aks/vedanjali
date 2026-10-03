@@ -13,7 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import EcosystemPartners from './components/EcosystemPartners';
 
-export const ROUTES = {
+const ROUTES = {
   home: '/',
   funding: '/funding',
   registration: '/registration',

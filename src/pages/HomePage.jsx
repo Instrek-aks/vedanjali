@@ -65,11 +65,11 @@ export default function HomePage({ onNavigate }) {
 
       <section className="live-section">
         <div className="wrap">
-          <div className="sec-h" style={{ textAlign: 'left', maxWidth: '800px', marginBottom: '10px' }}>
-            <span className="kick" style={{ background: '#a87820', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '12px', fontWeight: 'bold', letterSpacing: '1px' }}>
+          <div className="sec-h" style={{ textAlign: 'left', maxWidth: '800px', marginBottom: '16px' }}>
+            <span className="kick" style={{ marginBottom: '12px' }}>
               FEATURED UPDATES
             </span>
-            <h2 style={{ marginTop: '0px', marginBottom: '2px', fontSize: '32px', fontWeight: '800' }}>
+            <h2 style={{ marginTop: '0px', marginBottom: '6px', fontSize: '32px', fontWeight: '800' }}>
               What is live at Vedanjali right now
             </h2>
             <p style={{ marginTop: '0px', color: 'var(--muted)', fontSize: '16px' }}>
