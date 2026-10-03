@@ -40,6 +40,49 @@ export default function HomePage({ onNavigate }) {
 
   return (
     <div className="pg show" id="pg-home">
+      {/* Live Updates Section */}
+      <div className="live-updates-bar">
+        <div className="live-updates-badge">
+          <span className="live-dot"></span> LIVE UPDATES
+        </div>
+        <div className="live-updates-marquee">
+          <div className="marquee-content">
+            <span>
+              Startup &amp; Business Funding Support - Your Growth, Our Support &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; CGSS Funding Support - Up to ₹20 Crore &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; Ideabaaz TV Show &amp; Startup Fest - Turning Ideas into Impact &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp;
+            </span>
+            <span>
+              Startup &amp; Business Funding Support - Your Growth, Our Support &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; CGSS Funding Support - Up to ₹20 Crore &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; Ideabaaz TV Show &amp; Startup Fest - Turning Ideas into Impact &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp;
+            </span>
+            <span>
+              Startup &amp; Business Funding Support - Your Growth, Our Support &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; CGSS Funding Support - Up to ₹20 Crore &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; Ideabaaz TV Show &amp; Startup Fest - Turning Ideas into Impact &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp;
+            </span>
+            <span>
+              Startup &amp; Business Funding Support - Your Growth, Our Support &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; CGSS Funding Support - Up to ₹20 Crore &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp; Ideabaaz TV Show &amp; Startup Fest - Turning Ideas into Impact &nbsp;&nbsp;&nbsp;♦&nbsp;&nbsp;&nbsp;
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <section className="live-section">
+        <div className="wrap">
+          <div className="sec-h" style={{ textAlign: 'left', maxWidth: '800px', marginBottom: '10px' }}>
+            <span className="kick" style={{ background: '#a87820', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '12px', fontWeight: 'bold', letterSpacing: '1px' }}>
+              FEATURED UPDATES
+            </span>
+            <h2 style={{ marginTop: '0px', marginBottom: '2px', fontSize: '32px', fontWeight: '800' }}>
+              What is live at Vedanjali right now
+            </h2>
+            <p style={{ marginTop: '0px', color: 'var(--muted)', fontSize: '16px' }}>
+              Current schemes, opportunities and initiatives you can apply to today.
+            </p>
+          </div>
+          
+          <div className="live-banners">
+            <img src="/hero.png" alt="Featured Update Banner" />
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="wrap hero-grid">

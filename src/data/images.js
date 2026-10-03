@@ -25,31 +25,31 @@ export const SYSTEM_GYM_MANAGEMENT = '/images/system-gym-management.svg';
 
 // Partner bank & NBFC logos data
 export const BANK_PARTNERS = [
-  { mono: 'HB', bg: '#0A3A6B', name: 'HDFC Bank', type: 'Bank' },
-  { mono: 'IB', bg: '#A8362C', name: 'ICICI Bank', type: 'Bank' },
-  { mono: 'AB', bg: '#8B1D3F', name: 'Axis Bank', type: 'Bank' },
-  { mono: 'SB', bg: '#1B4F9C', name: 'State Bank of India', type: 'Bank' },
-  { mono: 'KM', bg: '#B4272C', name: 'Kotak Mahindra', type: 'Bank' },
-  { mono: 'BO', bg: '#D06A1E', name: 'Bank of Baroda', type: 'Bank' },
-  { mono: 'YB', bg: '#12326B', name: 'Yes Bank', type: 'Bank' },
-  { mono: 'IF', bg: '#8C1F2F', name: 'IDFC FIRST', type: 'Bank' },
-  { mono: 'IB', bg: '#7A2431', name: 'IndusInd Bank', type: 'Bank' },
-  { mono: 'PN', bg: '#8A4B12', name: 'Punjab National Bank', type: 'Bank' },
-  { mono: 'UB', bg: '#123F7A', name: 'Union Bank', type: 'Bank' },
-  { mono: 'CB', bg: '#0E4C8A', name: 'Canara Bank', type: 'Bank' }
+  { logo: '/bank_nbfc_logos/HDFC_Bank.png', name: 'HDFC Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/ICICI_Bank.png', name: 'ICICI Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Axis_Bank.png', name: 'Axis Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/State_Bank_of_India.png', name: 'State Bank of India', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Kotak_Mahindra_Bank.png', name: 'Kotak Mahindra', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Bank_of_Baroda.png', name: 'Bank of Baroda', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/YES_Bank.png', name: 'Yes Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/IDFC_FIRST_Bank.png', name: 'IDFC FIRST', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/IndusInd_Bank.png', name: 'IndusInd Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Punjab_National_Bank.png', name: 'Punjab National Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Union_Bank.png', name: 'Union Bank', type: 'Bank' },
+  { logo: '/bank_nbfc_logos/Canara_Bank.png', name: 'Canara Bank', type: 'Bank' }
 ];
 
 export const NBFC_PARTNERS = [
-  { mono: 'BF', bg: '#0B4C8F', name: 'Bajaj Finserv', type: 'NBFC' },
-  { mono: 'TC', bg: '#1F4E79', name: 'Tata Capital', type: 'NBFC' },
-  { mono: 'AB', bg: '#8A1B2E', name: 'Aditya Birla Capital', type: 'NBFC' },
-  { mono: 'LF', bg: '#0F5C4A', name: 'L&T Finance', type: 'NBFC' },
-  { mono: 'PF', bg: '#123A6B', name: 'Poonawalla Fincorp', type: 'NBFC' },
-  { mono: 'HF', bg: '#B03A1E', name: 'Hero FinCorp', type: 'NBFC' },
-  { mono: 'LE', bg: '#155E8A', name: 'Lendingkart', type: 'NBFC' },
-  { mono: 'FL', bg: '#1B4D7A', name: 'FlexiLoans', type: 'NBFC' },
-  { mono: 'CH', bg: '#8A5A12', name: 'Cholamandalam', type: 'NBFC' },
-  { mono: 'SF', bg: '#9A3218', name: 'Shriram Finance', type: 'NBFC' },
-  { mono: 'PF', bg: '#5A2A6B', name: 'Piramal Finance', type: 'NBFC' },
-  { mono: 'GC', bg: '#0E5540', name: 'Godrej Capital', type: 'NBFC' }
+  { logo: '/bank_nbfc_logos/Bajaj_Finserv.png', name: 'Bajaj Finserv', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Tata_Capital.png', name: 'Tata Capital', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Aditya_Birla_Capital.png', name: 'Aditya Birla Capital', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/LT_Finance.png', name: 'L&T Finance', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Poonawalla_Fincorp.png', name: 'Poonawalla Fincorp', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Hero_FinCorp.png', name: 'Hero FinCorp', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Lendingkart.png', name: 'Lendingkart', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/FlexiLoans.png', name: 'FlexiLoans', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Cholamandalam.png', name: 'Cholamandalam', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Shriram_Finance.png', name: 'Shriram Finance', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Piramal_Finance.png', name: 'Piramal Finance', type: 'NBFC' },
+  { logo: '/bank_nbfc_logos/Godrej_Capital.png', name: 'Godrej Capital', type: 'NBFC' }
 ];

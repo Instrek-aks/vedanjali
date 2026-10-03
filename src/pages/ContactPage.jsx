@@ -8,24 +8,49 @@ export default function ContactPage({ onNavigate }) {
     sv: '',
     ms: '',
   });
+  const [status, setStatus] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { nm, ph, em, sv, ms } = formData;
-    const text =
-      `New enquiry from the website%0A%0A` +
-      `Name: ${encodeURIComponent(nm.trim())}%0A` +
-      `Phone: ${encodeURIComponent(ph.trim())}%0A` +
-      (em.trim() ? `Email: ${encodeURIComponent(em.trim())}%0A` : '') +
-      (sv.trim() ? `Service: ${encodeURIComponent(sv.trim())}%0A` : '') +
-      (ms.trim() ? `Details: ${encodeURIComponent(ms.trim())}` : '');
+  const encode = (data) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&');
+  };
 
-    window.open(`https://wa.me/919213588029?text=${text}`, '_blank');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('submitting');
+    
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({
+          'form-name': 'contact',
+          Name: formData.nm,
+          Phone: formData.ph,
+          Email: formData.em,
+          Service: formData.sv,
+          Details: formData.ms,
+        })
+      });
+      
+      if (response.ok) {
+        setStatus('success');
+        alert('Your form is submitted successfully');
+        setFormData({ nm: '', ph: '', em: '', sv: '', ms: '' });
+      } else {
+        setStatus('error');
+        alert('Something went wrong. Please try again.');
+      }
+    } catch (error) {
+      setStatus('error');
+      alert('Network error. Please try again or use the email link.');
+    }
   };
 
   return (
@@ -154,8 +179,8 @@ export default function ContactPage({ onNavigate }) {
                 />
               </div>
 
-              <button type="submit" className="btn btn-p">
-                Send Enquiry on WhatsApp
+              <button type="submit" className="btn btn-p" disabled={status === 'submitting'}>
+                {status === 'submitting' ? 'Submitting...' : 'Submit Enquiry'}
               </button>
 
               <div className="fnote">
