@@ -113,7 +113,15 @@ export default function ContactPage({ onNavigate }) {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit}>
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              onSubmit={handleSubmit}
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div className="f-row">
                 <div>
                   <label htmlFor="nm" style={{ marginTop: 0 }}>Your name</label>
