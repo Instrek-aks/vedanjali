@@ -11,6 +11,7 @@ import ITSoftwarePage from './pages/ITSoftwarePage';
 import DigitalMarketingPage from './pages/DigitalMarketingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import EcosystemPartners from './components/EcosystemPartners';
 
 export const ROUTES = {
   home: '/',
@@ -109,6 +110,7 @@ export default function App() {
       <Header currentPage={currentPage} onNavigate={handleNavigate} />
       <main className="main-content">
         {renderPage()}
+        <EcosystemPartners />
       </main>
       <Footer onNavigate={handleNavigate} />
       <WhatsAppButton />

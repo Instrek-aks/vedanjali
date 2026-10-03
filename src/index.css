@@ -1396,6 +1396,88 @@ form .btn {
 }
 
 /* ============================================================
+   ECOSYSTEM PARTNERS MARQUEE
+   ============================================================ */
+.ecosystem-partners-sec {
+  padding: 56px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  position: relative;
+  overflow: hidden;
+}
+
+.ecosystem-mq {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  padding: 8px 0;
+}
+
+.ecosystem-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: ecosystemScroll 35s linear infinite;
+  will-change: transform;
+}
+
+.ecosystem-mq:hover .ecosystem-track {
+  animation-play-state: paused;
+}
+
+@keyframes ecosystemScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.ecosystem-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  height: 80px;
+  min-width: 180px;
+  max-width: 220px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ecosystem-logo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .ecosystem-partners-sec {
+  background: #110E0A;
+  border-color: #242018;
+}
+
+[data-theme="dark"] .ecosystem-logo-card {
+  background: #ffffff;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.ecosystem-logo-img {
+  max-height: 56px;
+  max-width: 155px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* ============================================================
    FOOTER
    ============================================================ */
 footer {
